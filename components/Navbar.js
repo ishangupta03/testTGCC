@@ -43,14 +43,18 @@ export const Navbar = () => {
               /> */}
               {theme === "light" ? (
                 <Image
-                  style={{ width: "200px" }}
+                  // style={{ width: "200px" }}
+                  width={200}
+                  height={34.28}
                   id="Learn_more"
                   src="./tgcc.png"
                   alt="GSSoC logo light"
                 />
               ) : (
                 <Image
-                  style={{ width: "200px" }}
+                  // style={{ width: "200px" }}
+                  width={200}
+                  height={50}
                   id="Learn_more"
                   src="./tgcc-dark.png"
                   alt="GSSoC logo dark"

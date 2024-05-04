@@ -15,6 +15,8 @@ const ThemeChanger = () => {
     <div>
       {theme === "light" ? (
         <Image
+        height={24}
+        width={24}
           src="./theme-button.png"
           onClick={() => setTheme("dark")}
           className="h-6 w-6 lg:block"
@@ -25,6 +27,8 @@ const ThemeChanger = () => {
           src="https://user-images.githubusercontent.com/64256342/151415459-adf26d5f-ad89-4a4a-85b4-477ee85d0b61.png"
           onClick={() => setTheme("light")}
           className="h-6 w-6 lg:block"
+          height={24}
+          width={24}
           alt="Switch to light theme"
         />
       )}
