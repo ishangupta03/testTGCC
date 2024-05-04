@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "Ishan Gupta",
+        "Email": "",
+        "Designation": "Founder & Director",
+        "Image": "./test-2.jpeg",
+        "GitHub": "https://github.com/anubhamane",
+        "Twitter": "https://twitter.com/anubhamane",
+        "LinkedIn": "https://www.linkedin.com/in/anubhamane/"
+    },
+    {
+        "Name": "Aviral Agarwal",
+        "Email": "",
+        "Designation": "Aviral Agarwal",
+        "Image": "./test.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/13_Saanjh",
+        "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+    },
+    {
+        "Name": "Chinmay Malhotra",
+        "Email": "",
+        "Designation": "Chinmay Malhotra",
+        "Image": "./test.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/13_Saanjh",
+        "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+    }
+]
