@@ -475,7 +475,6 @@ function Leaderboard() {
                       <div
                         className="table-cell font-serif px-4 py-4 bg-black text-white dark:bg-primary_green-0 dark:text-black"
                         key={column.id}
-                        align={column.align}
                         style={{ minWidth: column.minWidth }}
                       >
                         {column.label}
@@ -503,7 +502,6 @@ function Leaderboard() {
                                     <div
                                       className="table-cell px-4 py-2 bg-orange-50 text-black  dark:bg-neutral-900 dark:text-white font-medium"
                                       key={column.id}
-                                      align={column.align}
                                       style={{ verticalAlign: "middle" }}
                                     >
                                       {column.id === "avatar" ? (
@@ -572,7 +570,6 @@ function Leaderboard() {
                                     <div
                                       className="table-cell px-4 py-2 bg-leaderboardbg-0 text-black dark:bg-black dark:text-white font-medium"
                                       key={column.id}
-                                      align={column.align}
                                     >
                                       {column.id === "avatar" ? (
                                         <img
