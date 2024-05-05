@@ -59,19 +59,19 @@ export default function Home() {
       
       </div>
       <SocialFollow />
-      {/* <div className="absolute object-right text-xs text-right right-1 dark:bg-primary_green-0 px-2 animate-pulse py-2 rounded-full opacity-80 bg-black top-20 lg:hidden">
+      {/* <div className="absolute object-right text-xs text-right right-1 px-2 animate-pulse py-2 rounded-full opacity-80 bg-black top-20 lg:hidden">
         <ThemeChanger />
       </div> */}
-      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50 dark:bg-darkmode_gray-0 dark:transition-colors ">
+      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="first-section mb-10 flex flex-col md:flex-row">
           <div className="basis-1/2 relative">
-            <div className="text-black dark:text-white text-6xl font-sans font-semibold 2.25rem 3rem mb-10">
+            <div className="text-black text-6xl font-sans font-semibold 2.25rem 3rem mb-10">
               <span className="text-primary_green-0">TGCC </span>
               2024
               <div className="mt-2">is here!</div>
             </div>
 
-            <div className="font-serif font-medium text-2xl 1.5rem 2rem text-gray-800 dark:text-white">
+            <div className="font-serif font-medium text-2xl 1.5rem 2rem text-gray-800 ">
              Join us and ignite change for a sustainable future!
               <br />
               <span className="text-primary_green-0">#GoGreen &nbsp;</span>
@@ -130,24 +130,16 @@ export default function Home() {
             />
           </div>
           <div className="basis-full md:basis-6/12 md:order-first lg:basis-1/2 lg:order-first relative">
-            {theme === "light" ? (
               <img
                 className=" mt-4 mb-8 md:mb-9 md:mt-0"
                 src="./tgo-logo.png"
                 alt="logo"
               />
-            ) : (
-              <img
-                className=" mt-4 mb-8 md:mb-9 md:mt-0"
-                src="./tgo-dark.png"
-                alt="logo"
-              />
-            )}
-            <div className="text-black dark:text-white font-semibold text-4xl 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black  font-semibold text-4xl 2.25rem 3rem mb-5 font-sans">
               About <span className="text-primary_green-0">Team Green </span>
               Organization
             </div>
-            <p className="dark:text-white font-serif text-1xl text-black-100">
+            <p className=" font-serif text-1xl text-black-100">
             Team Green is an environmental NGO, that radiates dedication to environmental preservation and sustainable living 
             with its core philosophy of “for the society, by the society”. Team Green has passionately championed awareness, 
             promoted eco-friendly practices, and catalyzed initiatives that honor our planet.
@@ -161,34 +153,25 @@ export default function Home() {
         </div>
 
         <div
-          className="flex flex-row justify-between items-center bg-[#E5EFF8] dark:bg-black flex-wrap rounded-xl mb-24"
+          className="flex flex-row justify-between items-center bg-[#E5EFF8] flex-wrap rounded-xl mb-24"
           id="about-tgcc"
         >
           <div className="px-4 pt-3 lg:text-right rounded-xl md:w-1/2 lg:my-4 lg:px-10 lg:py-10 lg:w-1/2">
-            {theme === "light" ? (
               <img
                 id="Learn_more"
                 className="mb-10 sm:mt-0 mt-5"
                 src="./tgcc-logo.png"
                 alt="Learn More light"
               />
-            ) : (
-              <img
-                id="Learn_more"
-                className="mb-10"
-                src="tgo-dark.png"
-                alt="Learn More dark"
-              />
-            )}
             <div className="text-primary_green-0 text-left font-semibold font-sans text-4xl 2.25rem 3rem mb-10 lg:w-[570px]">
-              <h1 className="dark:text-white text-black text-4xl 2.25rem 3rem">
+              <h1 className=" text-black text-4xl 2.25rem 3rem">
                 About
                 <br />
                 Team Green{" "}
               </h1>
               Campus Chapters
             </div>
-            <p className="dark:text-white font-serif text-left text-xl">
+            <p className=" font-serif text-left text-xl">
             With its roots embedded in Team Green&apos;s legacy, TGCC unites young minds to carry forth the torch of sustainability and environmental stewardship.
             TGCC comprises a dedicated group of students who have taken up the mantle of safeguarding our environment and promoting sustainable practices. 
 
@@ -198,7 +181,7 @@ export default function Home() {
           </div>
 
           <div className="pr-4 font-semibold pt-3 rounded-lg lg:my-4 lg:px-2 lg:py-10 ml-4 md:mr-4">
-            <div className="dark:bg-black  dark:transition-colors bg-stone-50 shadow-lg rounded-lg my-1 px-1 pr-2 w-64 sm:w-fit">
+            <div className="bg-stone-50 shadow-lg rounded-lg my-1 px-1 pr-2 w-64 sm:w-fit">
               <h1 className="mt-8 pt-6 pl-8 text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                 TGCC 2023-24
               </h1>
@@ -320,7 +303,7 @@ export default function Home() {
           <div className="hidden lg:block 3xl:hidden">
           </div>
 
-          {/* <p className="font-sans font-semibold dark:text-white text-center text-gray-800 text-4xl 2.25rem 3rem mb-8">
+          {/* <p className="font-sans font-semibold  text-center text-gray-800 text-4xl 2.25rem 3rem mb-8">
           Some of the previous <br />
           <span className="text-primary_green-0 text-4xl 2.25rem 3rem">
             participating organisations
@@ -365,9 +348,9 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="400"
-              className="dark:bg-orange-100 bg-white other__sponsors px-9 py-9 shadow-xl rounded flex flex-col justify-center items-center"
+              className="bg-white other__sponsors px-9 py-9 shadow-xl rounded flex flex-col justify-center items-center"
             >
-              <h3 className=" dark:text-gray-800 text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center">
+              <h3 className="text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center">
                 Our Chapters
               </h3>
 
@@ -426,7 +409,7 @@ export default function Home() {
              </div>
               
 
-              <h3 className=" dark:text-gray-800 text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center mt-5 text-center">
+              <h3 className="text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center mt-5 text-center">
                 GeoTagging Partner
               </h3>
               <div className="flex flex-col sm:flex-row flex-wrap gap-x-28 justify-between items-center mt-5">
@@ -441,7 +424,7 @@ export default function Home() {
                 </a>
               </div>
 
-              <h3 className="mt-10 dark:text-gray-800 text-primary_green-0 font-sans font-bold text-4xl  mb-12 place-content-center text-center">
+              <h3 className="mt-10 text-primary_green-0 font-sans font-bold text-4xl  mb-12 place-content-center text-center">
                 Past Collaborations
               </h3>
               <div className="flex flex-col sm:flex-row flex-wrap gap-x-28 justify-between items-center mb-5 gap-y-10 md:gap-y-8 ">
@@ -484,7 +467,7 @@ export default function Home() {
         </div>
 
         <div className="be-part-of">
-          <p className="font-sans font-semibold text-center dark:text-white text-gray-800 text-4xl 2.25rem 3rem ">
+          <p className="font-sans font-semibold text-center  text-gray-800 text-4xl 2.25rem 3rem ">
             <span className="text-primary_green-0 text-4xl 2.25rem 3rem">
               Be a part of{" "}
             </span>
@@ -548,7 +531,7 @@ export default function Home() {
       {/* Schedule */}
       <div className="schedule__container flex flex-col items-center mb-48 ">
         <div className="schedule__overview mt-24 relative">
-          <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4 dark:text-white  text-center">
+          <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4   text-center">
             <span className="text-primary_green-0">Schedule</span> of TGCC
             2024!
           </p>

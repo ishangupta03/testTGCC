@@ -11,7 +11,7 @@ const MoreMenu = () => {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="lg:inline-flex lg:w-auto w-full py-2 text-center rounded text-grey-800 text-1xl font-medium hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
+        <Menu.Button className="lg:inline-flex lg:w-auto w-full py-2 text-center rounded text-grey-800 text-1xl font-medium hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
           MORE
           <ChevronDownIcon
             className="-mr-1 mb-2 mt-1 ml-1 h-15 w-15 hover:motion-safe:animate-ping"
@@ -29,7 +29,7 @@ const MoreMenu = () => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="origin-top-right absolute -right-5 mt-2 w-56 rounded-md shadow-lg dark:bg-black ring-1 bg-white ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="origin-top-right absolute -right-5 mt-2 w-56 rounded-md shadow-lg ring-1 bg-white ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Link href="/codeofconduct">
               <Menu.Item>
@@ -37,8 +37,8 @@ const MoreMenu = () => {
                   <a
                     className={classNames(
                       active
-                        ? "hover:text-primary_green-0 dark:hover:text-primary_green-0 dark:text-white"
-                        : "hover:text-primary_green-0 dark:text-white",
+                        ? "hover:text-primary_green-0"
+                        : "hover:text-primary_green-0",
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >
@@ -53,8 +53,8 @@ const MoreMenu = () => {
                   <a
                     className={classNames(
                       active
-                        ? "hover:text-primary_green-0 dark:hover:text-primary_green-0 dark:text-white"
-                        : "hover:text-primary_green-0 dark:text-white",
+                        ? "hover:text-primary_green-0"
+                        : "hover:text-primary_green-0",
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >

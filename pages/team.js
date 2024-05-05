@@ -31,7 +31,7 @@ const Team = () => {
       </Head>
       <div className="items-center justify-center">
         <p className="font-sans text-center text-2xl font-extrabold text-black-100">
-          <p className="text-primary_green-0 dark:text-white font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
+          <p className="text-primary_green-0 font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
             <h1 className="text-primary_green-0">Meet the&nbsp;</h1>
             <h1>Team </h1>
           </p>
@@ -44,7 +44,7 @@ const Team = () => {
      {/*  <div className="flex flex-row justify-center flex-wrap items-center gap-5">
         <a>
           <button
-            className="bg-gradient-to-b from-primary_green-0 to-[blue] text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_green-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_green-0 to-[blue] text-lg text-white font-medium hover:bg-gradient-to-t hover:from-primary_green-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
             onClick={() => getUsers(2023)}
           >
             2023

@@ -24,7 +24,7 @@ export default function SocialFollow() {
       <a
         href="https://www.facebook.com/TeamGreenOrganization"
         target="_blank"
-        className="dark:transition-colors transition-colors bg-transparent dark:text-primary_green-0 dark:hover:text-facebook-0 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base hover:text-blue-600 ease-linear hover:ease-in rounded-t-md"
+        className="transition-colors bg-transparent block text-center text-gray-700 py-2 px-2 text-base hover:text-blue-600 ease-linear hover:ease-in rounded-t-md"
         rel="noreferrer"
       >
         <FontAwesomeIcon className="w-10 h-10" icon={faFacebook} size="2x" />
@@ -32,7 +32,7 @@ export default function SocialFollow() {
       <a
         href="https://www.instagram.com/teamgreenorganization"
         target="_blank"
-        className="dark:transition-colors transition-colors  bg-transparent dark:text-primary_green-0 dark:hover:text-pink-600 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base  hover:text-pink-600 ease-linear hover:ease-in"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-pink-600 ease-linear hover:ease-in"
         rel="noreferrer"
       >
         <FontAwesomeIcon className="w-10 h-10" icon={faInstagram} size="2x" />
@@ -40,7 +40,7 @@ export default function SocialFollow() {
       <a
         href="https://www.linkedin.com/company/team-green-organization/"
         target="_blank"
-        className="dark:transition-colors transition-colors  bg-transparent dark:text-primary_green-0 dark:hover:text-linkedin-0 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-700 ease-linear hover:ease-in"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-700 ease-linear hover:ease-in"
         rel="noreferrer"
       >
         <FontAwesomeIcon className="w-10 h-10" icon={faLinkedin} size="2x" />
@@ -48,7 +48,7 @@ export default function SocialFollow() {
       <a
         href="https://twitter.com/TeamGreenOrg"
         target="_blank"
-        className="dark:transition-colors transition-colors  bg-transparent dark:text-primary_green-0 dark:hover:text-twitter-0 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-400 ease-linear hover:ease-in"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-400 ease-linear hover:ease-in"
         rel="noreferrer"
       >
         <img className="w-10 h-10" src="./x-twitter.svg" />
@@ -56,7 +56,7 @@ export default function SocialFollow() {
       <a
         href="https://www.youtube.com/@teamgreenorganization"
         target="_blank"
-        className="dark:transition-colors transition-colors  bg-transparent dark:text-primary_green-0 dark:hover:text-youtube-0 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base  hover:text-red-600 ease-linear hover:ease-in rounded-b-md"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-red-600 ease-linear hover:ease-in rounded-b-md"
         rel="noreferrer"
       >
         <FontAwesomeIcon className="w-10 h-10" icon={faYoutube} size="2x" />
