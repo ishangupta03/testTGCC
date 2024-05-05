@@ -4,18 +4,18 @@
         "Email": "",
         "Designation": "Founder & Director",
         "Image": "./test-2.jpeg",
-        "GitHub": "https://github.com/anubhamane",
-        "Twitter": "https://twitter.com/anubhamane",
-        "LinkedIn": "https://www.linkedin.com/in/anubhamane/"
+        "GitHub": "https://github.com",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
     },
     {
         "Name": "Aviral Agarwal",
         "Email": "",
         "Designation": "Aviral Agarwal",
-        "Image": "./test.jpg",
+        "Image": "./assets/team/aviral-agarwal.jpeg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/13_Saanjh",
-        "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
     },
     {
         "Name": "Chinmay Malhotra",
@@ -23,17 +23,26 @@
         "Designation": "Chinmay Malhotra",
         "Image": "./test.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/13_Saanjh",
-        "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
     },
     {
         "Name": "Chinmay Malhotra",
         "Email": "",
-        "Designation": "Chinmay Malhotra",
+        "Designation": "TGCC Lead'23, JIIT Noida",
         "Image": "./test.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/13_Saanjh",
-        "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Hardik Sharma",
+        "Email": "",
+        "Designation": "TGCC Lead'23, IIIT Nagpur ",
+        "Image": "./test.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
     }
     
 ]
