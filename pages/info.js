@@ -8,10 +8,10 @@ function info() {
         </title>
         <meta name="description" content="GirlScript Summer of Code Certificates" />
       </Head>
-      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50 dark:bg-darkmode_gray-0 dark:transition-colors ">
+      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
           <div className="font-sans text-center text-2xl font-extrabold">
-            <p className="text-black dark:text-white text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
+            <p className="text-black text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
               What {""}
               <span className="text-primary_green-0">they</span> do?
             </p>
@@ -27,7 +27,7 @@ function info() {
             />
           </div>
           <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
               <ul className="list-disc">
                 <li>
                 <strong className="text-blue-500 text-2xl">Project Admins</strong> own the projects where the contributors are
@@ -46,7 +46,7 @@ function info() {
               </ul>
             </div>
 
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
               <ul className="list-disc">
                 <li>
                 <strong className="text-green-500 text-2xl">Mentors</strong> review the Pull Requests, check for plagiarism, and
@@ -61,7 +61,7 @@ function info() {
               </ul>
             </div>
 
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
               <ul className="list-disc">
                 <li>
                 <strong className="text-yellow-500 text-2xl">Contributors</strong> should feel free to ask their doubts within the
@@ -86,7 +86,7 @@ function info() {
         </div>
         <div className="items-center justify-center">
           <div className="font-sans text-center text-2xl font-extrabold text-black-100">
-            <p className="text-black dark:text-white text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
+            <p className="text-black text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
               <span className="text-primary_green-0">How&nbsp;</span>
               they do ?
             </p>
@@ -95,7 +95,7 @@ function info() {
       </div>
       <div className="flex flex-row justify-around flex-wrap sm:flex-wrap mb-28">
         <div className="flex flex-col justify-around align-center items-center sm:flex-col">
-          <div className="flex flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_green-0 p-4 rounded-lg max-w-[29rem] w-full">
+          <div className="flex flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 rounded-lg max-w-[29rem] w-full">
             Contributors
           </div>
           <div className="flex" data-aos="flip-left" data-aos-duration="700">
@@ -141,32 +141,6 @@ function info() {
         </div>
       </div>
 
-      {/* <div className="flex flex-col">
-       <div className="flex flex-row justify-around align-center items-center">
-        <div className="flex flex-start text-black bg-primary_green-0 p-3 rounded-lg ">Participants</button>
-        <button className="flex flex-start text-black bg-primary_green-0 p-3 rounded-lg ">Mentors</button>
-       </div>  
-       <div className="flex justify-around flex-row ">
-          <div className="flex p-8">
-            <div className="flex" data-aos="flip-left" data-aos-duration="700">
-              <img
-                src="https://raw.githubusercontent.com/girlscript/gssoc-assets/8eba35cb8c2fefb3c64cc489d191c4f5a8e4d5a6/Logos/participantinfo.svg"
-                // height="453"
-                // width="320"
-                alt="Rectangle light"
-              />
-            </div>
-            <div data-aos="flip-left" data-aos-duration="700">
-              <img
-                src="https://raw.githubusercontent.com/girlscript/gssoc-assets/b30ac90ea12dc937c2aa57c77e1dbe904b83d0dd/Logos/mentors-info.svg"
-                // height="453"
-                // width="320"
-                alt="Rectangle light"
-              />
-            </div>
-          </div>
-       </div>
-      </div> */}
     </div>
   );
 }

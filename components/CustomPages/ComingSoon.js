@@ -32,23 +32,23 @@ function ComingSoon() {
   return (
     <div className="h-[100vh] md:h-[100vh] py-5 flex flex-col items-center justify-between md:justify-center px-2">
       <div className="text__container">
-        <h1 className="text-3xl dark:text-white text-gray-900 font-sans">
+        <h1 className="text-3xl text-gray-900 font-sans">
           Coming soon 🚧
         </h1>
       </div>
       <div className="redirect__container flex mt-10">
         <Link href="/">
-          <p className="text-2xl dark:text-white font-serif text-center cursor-pointer mb-5 md:mb-10">
+          <p className="text-2xl font-serif text-center cursor-pointer mb-5 md:mb-10">
             Meanwhile you can hangout at our{" "}
             <span className="text-primary_green-0 ">awesome Homepage</span>
           </p>
         </Link>
       </div>
       <div className="review__container md:w-1/2 font-sans italic bg-gray-800 px-5 py-5 rounded-xl">
-        <p className="dark:text-white text-primary_green-0 ">
+        <p className="text-primary_green-0 ">
           {reviews[random_index].review}
         </p>
-        <p className="dark:text-primary_green-0 text-white text-right">
+        <p className="text-white text-right">
           {"- "}
           {reviews[random_index].author}
         </p>

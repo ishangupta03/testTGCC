@@ -31,7 +31,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center transition-colors flex-wrap bg-white drop-shadow-xl p-1 justify-center mb-10 dark:bg-black dark:text-white dark:transition-colors sticky top-0 z-10">
+      <nav className="flex items-center transition-colors flex-wrap bg-white drop-shadow-xl p-1 justify-center mb-10 sticky top-0 z-10">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
             <span className="text-xl text-green font-bold uppercase tracking-wide  ml-8">
@@ -74,29 +74,29 @@ export const Navbar = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center content-center items-start  flex flex-col lg:h-auto">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 ABOUT
               </a>
             </Link>
             
             <Link href="/team">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 TEAM
               </a>
             </Link>
            <Link href="/blog">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 EVENTS
               </a>
             </Link>
             <a
               href="#Contact"
-              className="lg:inline-flex lg:w-auto w-full px-3 py-2 mr-30 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 mr-30 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black"
             >
               CONTACT
             </a>
             <Link href="/faq">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 dark:hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 FAQ
               </a>
             </Link>
