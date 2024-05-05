@@ -49,7 +49,7 @@ export const Navbar = () => {
           </a>
         </Link>
         <button
-          className=" inline-flex p-3 hover:bg-orange-600 rounded lg:hidden text-grey-800 ml-auto hover:text-grey-800 outline-none"
+          className=" inline-flex p-3 hover:bg-primary_green-0 rounded lg:hidden text-grey-800 ml-auto hover:text-grey-800 outline-none"
           onClick={handleClick}
         >
           <svg
