@@ -11,8 +11,8 @@ export const accordionData = [
     },
     {
         id: 3,
-        question: 'Any age limit for participation?',
-        answer: 'No, there is no age limit for participation in GSSoC. It is open for all. '
+        question: 'What kind of activities do Team Green Campus Chapters organize?',
+        answer: 'Our chapters organize a wide range of activities, including tree planting drives, waste management campaigns, educational workshops on sustainable living, beach cleanups, recycling initiatives, and more. The activities are tailored to the specific needs and interests of each campus community.'
     },
     {
         id: 4,
@@ -26,13 +26,13 @@ export const accordionData = [
     },
     {
         id: 6,
-        question: 'What minimum conditions should the project satisfy?',
-        answer: 'There are no such conditions that the projects need to satisfy. The mentors can propose the idea in any field that they specifically expertise in. '
+        question: 'How can my campus start a Team Green Campus Chapter?',
+        answer: 'Starting a Team Green Campus Chapter is easy! Simply fill out the registration form. Our team will provide you with all the necessary resources and support to kickstart your chapter and make a difference on your campus.'
     },
     {
         id: 7,
-        question: 'Is it strictly for girls or can boys also participate?',
-        answer: 'GirlScript aims to assist anyone who is new in the field of development and it specifically supports an inclusive environment. Thereby GSSoC is open both for girls and for boys. Everyone can participate and contribute their part in the development of open source community and our initiative. '
+        question: 'Who can join?',
+        answer: 'Team Green Campus Chapters welcome students from all academic disciplines who are passionate about environmental sustainability and making a positive impact. Whether you are studying engineering, business, humanities, or any other field, there is a place for you in our community. '
     },
     {
         id: 8,
