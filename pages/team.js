@@ -32,51 +32,19 @@ const Team = () => {
       <div className="items-center justify-center">
         <p className="font-sans text-center text-2xl font-extrabold text-black-100">
           <p className="text-primary_green-0 font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
-            <h1 className="text-primary_green-0">Meet the&nbsp;</h1>
-            <h1>Team </h1>
+            <h1 className="text-primary_green-0">Meet the Team</h1>
           </p>
-          <p className=" text-primary_green-0">
+          <p className=" text-primary_green-0 font-serif font-light">
             Team Green is here to make your journey memorable!
           </p>
         </p>
       </div>
-      <Spacer mt={10} />
-     {/*  <div className="flex flex-row justify-center flex-wrap items-center gap-5">
-        <a>
-          <button
-            className="bg-gradient-to-b from-primary_green-0 to-[blue] text-lg text-white font-medium hover:bg-gradient-to-t hover:from-primary_green-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
-            onClick={() => getUsers(2023)}
-          >
-            2023
-          </button>
-        </a>
-     
-      </div> */}
+  
       <Spacer mt={20} />
       <div className="flex flex-row justify-center flex-wrap items-center gap-x-20 gap-y-10 w-100">
         {users.map((curElem, i) => {
           return (
-            <>
-              {/* {curElem == null ? (
-                <div
-                  className="flex flex-col items-center justify-center w-80 h-80 gap-5"
-                  key={i}
-                >
-                  <SkeletonCircle size="100" />
-                  <br />
-                  <Skeleton>
-                    <Box className="text-center px={4}"> Cogito ergo Sum </Box>
-                  </Skeleton>
-                  <Skeleton>
-                    <Box className="text-center px={4}">
-                      {" "}
-                      Connection is power - DedSec
-                    </Box>
-                  </Skeleton>
-                </div>
-              ) : ( */
-
-              (               
+            <>             
                  <div className="flex items-center justify-center w-80" key={i}>
                   <div className="p-4 bg-none border-solid border-2 rounded-xl w-full md:h-fit">
                     <div className="h-max rounded-lg relative mb-5 hover:-translate-y-4 duration-300 hover:cursor-pointer">
@@ -154,7 +122,7 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-              )}
+              
             </>
           );
         })}

@@ -6,8 +6,8 @@ export const accordionData = [
     },
     {
         id: 2,
-        question: 'Is there any registration fee?',
-        answer: 'No, there is no registration fees for participation. It is absolutely free of cost. '
+        question: 'How does Team Green Campus Chapters operate?',
+        answer: 'Team Green Campus Chapters operate as student-led chapters on university campuses worldwide. Each chapter is responsible for organizing events, workshops, and campaigns aimed at raising awareness and driving action for environmental sustainability.'
     },
     {
         id: 3,

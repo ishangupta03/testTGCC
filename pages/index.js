@@ -42,8 +42,8 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="gssoc.girlscript.tech" />
         <meta property="twitter:url" content="https://gssoc.girlscript.tech/" />
-        <meta name="twitter:title" content="GirlScript Summer of Code'23" />
-        <meta name="twitter:description" content="GSSoC'23 is here!" />
+        <meta name="twitter:title" content="Team Green Campus Chapters" />
+        <meta name="twitter:description" content="TGCC'23 is here!" />
         <meta name="twitter:image" content="https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png" />
 
 

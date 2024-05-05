@@ -13,14 +13,12 @@ function Faq() {
         </title>
         <meta name="description" content="FAQs of Team Green Campus Chapters" />
       </Head>
-      <section className="flex flex-col items-center">
-        <p className="text-primary_green-0 font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
-          <h1 className="text-primary_green-0">
-            Frequently Asked Questions&nbsp;
+      <section className="flex flex-col items-center md:mb-10">
+      
+          <h1 className="text-primary_green-0 font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
+            Frequently Asked Questions (FAQs)
           </h1>
-          <h1>(FAQs) </h1>
-        </p>
-        <br />
+        
         <div className="flex justify-around md:gap-1 w-11/12">
           <div className="w-6/12">
             {data.slice(0, Math.ceil(data.length / 2)).map((curElem) => {
