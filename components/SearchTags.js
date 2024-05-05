@@ -5,7 +5,7 @@ export default function SearchTags({ setSearchTerm }) {
   const [selected, isSelected] = useState(-1);
 
   return (
-    <div className="flex flex-wrap md:gap-5 gap-2 justify-center lg:w-[70%] w-[90%] mx-auto dark:text-white text-black">
+    <div className="flex flex-wrap md:gap-5 gap-2 justify-center lg:w-[70%] w-[90%] mx-auto text-black">
       {projectTags.map((tags, idx) => {
         if (idx < 15) {
           return (

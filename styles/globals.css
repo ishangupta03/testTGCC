@@ -179,9 +179,6 @@ html {
   opacity: 0.9;
 }
 
-.dark-modal .pr-links {
-  color: #dbeafe;
-}
 
 .pr-links:hover {
   text-decoration: underline;
@@ -193,9 +190,6 @@ html {
   background-color: #fa500c !important;
 }
 
-.dark-modal {
-  background-color: #000000 !important;
-}
 
 .modal-score {
   background-color: #ebfaeb;

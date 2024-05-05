@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const Layout = ({ children }) => {
   const router = useRouter();
     return (
-      <div className="transition-colors dark:bg-darkmode_gray-0 dark:transition-colors">
+      <div className="transition-colors">
         <Navbar />
         {children}
         <div className="hidden lg:block">

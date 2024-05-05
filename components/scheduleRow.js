@@ -7,14 +7,14 @@ function ScheduleRow({ curElem }) {
                 <div className="h-full w-6 flex items-center justify-center">
                     <div className="h-full w-1 bg-primary_green-0 pointer-events-none" />
                 </div>
-                {isShown ? (<div className="w-6 h-6 absolute top-1/2 -mt-3 border-4 border-primary_green-0 rounded-full bg-white dark:bg-darkmode_gray-0 shadow text-center animate-ping"
+                {isShown ? (<div className="w-6 h-6 absolute top-1/2 -mt-3 border-4 border-primary_green-0 rounded-full bg-white shadow text-center animate-ping"
                     onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)} />)
-                    : (<div className="w-6 h-6 absolute top-1/2 -mt-3 border-4 border-primary_green-0 rounded-full bg-white dark:bg-darkmode_gray-0 shadow text-center hover:animate-ping"
+                    : (<div className="w-6 h-6 absolute top-1/2 -mt-3 border-4 border-primary_green-0 rounded-full bg-white shadow text-center hover:animate-ping"
                         onMouseEnter={() => setIsShown(true)}
                         onMouseLeave={() => setIsShown(false)} />)}
             </div>
-            {isShown ? (<div className="border-4 bg-primary_green-0 text-white dark:bg-primary_green-0 dark:text-white border-primary_green-0 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto w-full"
+            {isShown ? (<div className="border-4 bg-primary_green-0 text-white border-primary_green-0 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto w-full"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
                 <h3 className="font-bold text-xl mb-1">{curElem.duration}</h3>
@@ -22,7 +22,7 @@ function ScheduleRow({ curElem }) {
                     {curElem.event}
                 </p>
             </div>) :
-                (<div className="border-4 bg-white hover:bg-primary_green-0 hover:text-white text-gray-600 dark:bg-darkmode_gray-0 dark:hover:bg-primary_green-0 dark:text-white border-primary_green-0 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto w-full" onMouseEnter={() => setIsShown(true)}
+                (<div className="border-4 bg-white hover:bg-primary_green-0 hover:text-white text-gray-600 border-primary_green-0 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto w-full" onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)}>
                     <h3 className="font-bold text-xl mb-1">{curElem.duration}</h3>
                     <p className=" leading-tight text-lg w-full">

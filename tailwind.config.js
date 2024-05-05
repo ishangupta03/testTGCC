@@ -14,9 +14,6 @@ module.exports = {
         primary_green: {
           0: "#45B649",
         },
-        darkmode_gray: {
-          0: "#303030",
-        },
         code_of_conduct:{
           0: "#464646",
           1: "#FF6900",

@@ -108,7 +108,7 @@ function info() {
           </div>
         </div>
         <div className="flex flex-col justify-evenly align-center items-center sm:flex-col mt-5">
-          <div className="flex m-auto flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
+          <div className="flex m-auto flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
             Mentors
           </div>
           <div className="flex" data-aos="flip-left" data-aos-duration="700">
@@ -119,20 +119,13 @@ function info() {
               alt="Rectangle light"
             />
           </div>
-          <div className="flex flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
+          <div className="flex flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
             Project Admin
           </div>
           <div className="flex" data-aos="flip-left" data-aos-duration="700">
             <img
-              className="h-0 w-0 dark:h-full dark:w-full invisible dark:visible"
+              className="h-0 w-0 "
               src="https://raw.githubusercontent.com/girlscript/gssoc-assets/736b2e588142af26560791b90ee898b6de44bead/Logos/projectadmin.svg"
-              // height="453"
-              // width="320"
-              alt="Rectangle light"
-            />
-            <img
-              className="dark:hidden"
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/cbfaa0b0ff78f8fd0cf01a6b966ce6dc18271249/Logos/projectadmins.svg"
               // height="453"
               // width="320"
               alt="Rectangle light"
