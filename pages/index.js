@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 import VisibilitySensor from "react-visibility-sensor";
 import ThemeChanger from "../components/Toggler";
 import Card from "../components/homepage/Card";
-import Slider from "../components/homepage/Slider";
+/* import Slider from "../components/homepage/Slider"; */
 import SocialFollow from "../components/homepage/SocialFollow";
 
 export default function Home() {
@@ -462,9 +462,9 @@ export default function Home() {
         </div>
 
         {/* Slider */}
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <Slider />
-        </div>
+        </div> */}
 
         <div className="be-part-of">
           <p className="font-sans font-semibold text-center  text-gray-800 text-4xl 2.25rem 3rem ">

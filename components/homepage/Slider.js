@@ -67,7 +67,7 @@ function Carousel(){
             <div className="flex justify-between items-center text-white text-md">
               <div className="left__container md:mr-20">
                 <p className="text-3xl mb-5 text-primary_green-0 font-sans font-semibold">
-                  Top 3 Contributors
+                  Top 3 Chapters
                 </p>
                 <ol className="list-none md:text-lg">
                   <li className="mb-2">
