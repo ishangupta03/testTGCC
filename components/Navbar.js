@@ -1,9 +1,6 @@
-import { Tooltip } from "@chakra-ui/react";
-import { useTheme } from "next-themes";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import MoreMenu from "./MoreMenu";
-import ThemeChanger from "./Toggler";
 import Image from "next/image";
 
 function MyLink(props) {
@@ -22,7 +19,7 @@ export const Navbar = () => {
     setActive(!active);
   };
   const [mounted, setMounted] = useState(false);
-  const { theme } = useTheme();
+ 
 
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
@@ -103,13 +100,6 @@ export const Navbar = () => {
             <div className="lg:inline-flex lg:w-auto w-full px-2 text-center rounded link link-underline link-underline-black md:mr-3.5">
               <MoreMenu />
             </div>
-            {/* <div className="hidden lg:block">
-              <Tooltip label="Change Theme" placement="bottom">
-                <div>
-                  <ThemeChanger />
-                </div>
-              </Tooltip>
-            </div> */}
           </div>
         </div>
       </nav>

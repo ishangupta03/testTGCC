@@ -1,18 +1,15 @@
 import Aos from "aos";
-import { useTheme } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import Tilt from "react-parallax-tilt";
 import VisibilitySensor from "react-visibility-sensor";
-import ThemeChanger from "../components/Toggler";
 import Card from "../components/homepage/Card";
-/* import Slider from "../components/homepage/Slider"; */
 import SocialFollow from "../components/homepage/SocialFollow";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
-  const { theme } = useTheme();
+
 
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -59,9 +56,7 @@ export default function Home() {
       
       </div>
       <SocialFollow />
-      {/* <div className="absolute object-right text-xs text-right right-1 px-2 animate-pulse py-2 rounded-full opacity-80 bg-black top-20 lg:hidden">
-        <ThemeChanger />
-      </div> */}
+      
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="first-section mb-10 flex flex-col md:flex-row">
           <div className="basis-1/2 relative">
