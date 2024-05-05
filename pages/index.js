@@ -77,7 +77,7 @@ export default function Home() {
               <span className="text-primary_green-0">#GoGreen &nbsp;</span>
               program by Team Green Organization.
               <br />
-              <b> 1st May - 10th June 2024 </b>
+              <b> 7th May - 10th June 2024 </b>
             </div>
 
             <br></br>
