@@ -449,34 +449,7 @@ html {
   height: 707px;
 }
 
-.cert-contrib {
-  background: url(/GSSoC_Contrib_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-topcontrib {
-  background: url(/GSSoC_TopContrib_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-mentor {
-  background: url(/GSSoC_Mentor_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-pa {
-  background: url(/GSSoC_PA_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-ca {
-  background: url(/GSSoC_CA_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-speaker {
-  background: url(/GSSoC_OSAdvocate_Cert.png) no-repeat;
-  background-size: contain;
-}
-.cert-orgteam {
-  background: url(/GSSoC_Organiser_Cert.png) no-repeat;
-  background-size: contain;
-}
+
 
 .contrib_name {
   position: absolute;

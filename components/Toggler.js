@@ -17,7 +17,7 @@ const ThemeChanger = () => {
         <Image
         height={24}
         width={24}
-          src="./theme-button.png"
+          src="./assets/theme-button.png"
           onClick={() => setTheme("dark")}
           className="h-6 w-6 lg:block"
           alt="Switch to dark theme"

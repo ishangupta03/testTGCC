@@ -57,7 +57,7 @@ const Team = () => {
         {users.map((curElem, i) => {
           return (
             <>
-              {curElem == null ? (
+              {/* {curElem == null ? (
                 <div
                   className="flex flex-col items-center justify-center w-80 h-80 gap-5"
                   key={i}
@@ -74,8 +74,10 @@ const Team = () => {
                     </Box>
                   </Skeleton>
                 </div>
-              ) : (
-                <div className="flex items-center justify-center w-80" key={i}>
+              ) : ( */
+
+              (               
+                 <div className="flex items-center justify-center w-80" key={i}>
                   <div className="p-4 bg-none border-solid border-2 rounded-xl w-full md:h-fit">
                     <div className="h-max rounded-lg relative mb-5 hover:-translate-y-4 duration-300 hover:cursor-pointer">
                       <img

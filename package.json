@@ -1,5 +1,5 @@
 {
-  "name": "gssoc-website",
+  "name": "tgcc-website",
   "private": true,
   "scripts": {
     "dev": "next dev",

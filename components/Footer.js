@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,10 +9,12 @@ const Footer = () => {
           <div className="md:flex md:flex-wrap md:-mx-4 py-6 md:pb-8">
             <div className="footer-info lg:w-1/3 md:px-4">
               <Link href="https://teamgreen.org.in">
-                <img
+                <Image
                   className="cursor-pointer"
                   src="./tgo-logo.png"
                   alt="logo"
+                  height={75.6}
+                  width={380}
                 />
               </Link>
             </div>
@@ -24,7 +27,7 @@ const Footer = () => {
                   </h6>
                   <div>
                     <a
-                      href="https://linktr.ee/GSSoC22"
+                      href="https://teamgreen.org.in"
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       Contact Us

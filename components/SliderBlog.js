@@ -85,11 +85,11 @@ function Carousel() {
                 <a className="text-primary_green-0 hover:text-white text-lg font-bold" href="https://9yearoldtechkid.medium.com/deep-dive-on-filecoin-ipfs-use-cases-in-the-solana-ecosystem-decff70c60af">Read More here &gt;&gt;</a>
               </div>
               <div className="right__container hidden md:block relative md:left-20">
-                <Image
+                {/* <Image
                   className="w-1/2 h-auto"
                   src="https://user-images.githubusercontent.com/63473496/176965873-5c457a6b-cfae-4107-87ea-823c25ceea66.png"
                   alt="top3"
-                />
+                /> */}
               </div>
             </div>
           </div>

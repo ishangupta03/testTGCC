@@ -33,9 +33,7 @@ module.exports = {
         youtube:{
           0: "#FF0000",
         },
-        leaderboardbg:{
-          0:"#FFECDE",
-        }
+
       },
       screens: {
         "3xl": "1600px",

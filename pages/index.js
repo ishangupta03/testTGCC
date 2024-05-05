@@ -5,18 +5,10 @@ import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import Tilt from "react-parallax-tilt";
 import VisibilitySensor from "react-visibility-sensor";
-import Bighex from "../components/BgAssets/Bighex";
-import EllipseBox from "../components/BgAssets/EllipseBox";
-import EllipseBox2 from "../components/BgAssets/EllipseBox2";
-import Hex1 from "../components/BgAssets/Hex1";
-import Hex2 from "../components/BgAssets/Hex2";
-import Map from "../components/BgAssets/Map";
-import SmallHex from "../components/BgAssets/SmallHex";
 import ThemeChanger from "../components/Toggler";
 import Card from "../components/homepage/Card";
 import Slider from "../components/homepage/Slider";
 import SocialFollow from "../components/homepage/SocialFollow";
-import Image from '../public/GSSoC_Schedule_Light_Mode.png'
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -40,10 +32,10 @@ export default function Home() {
           href="./TG_Logo_White.png"
         />
 
-        <meta property="og:url" content="https://gssoc.girlscript.tech/" />
+        <meta property="og:url" content="https://teamgreen.org.in" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="GirlScript Summer of Code'23" />
-        <meta property="og:description" content="GSSoC'23 is back!" />
+        <meta property="og:title" content="Team Green Campus Chapters" />
+        <meta property="og:description" content="Caring for mother Earth" />
         <meta property="og:image" content="https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png" />
 
 
@@ -56,37 +48,20 @@ export default function Home() {
 
 
       </Head>
-      {/* Bg assets */}
+      
       <div className="hidden lg:block 3xl:hidden">
         <div className="absolute bottom-[60rem] right-0">
           <img
-            src="./light-bg.png"
+            src="./assets/light-bg.png"
             alt="bg"
           />
         </div>
-        {/* <div className="absolute w-full left-0 -top-10 right-0">
-          <Bighex />
-        </div>
-        <div className="absolute top-0 left-0">
-          <Hex1 />
-        </div>
-        <div className="absolute top-0 left-0">
-          <Hex2 />
-        </div>
-        <div className="absolute top-0 left-48">
-          <EllipseBox2 />
-        </div>
-        <div className="absolute top-10 -left-20">
-          <EllipseBox />
-        </div>
-        <div className="absolute top-0">
-          <SmallHex />
-        </div> */}
+      
       </div>
       <SocialFollow />
-      <div className="absolute object-right text-xs text-right right-1 dark:bg-primary_green-0 px-2 animate-pulse py-2 rounded-full opacity-80 bg-black top-20 lg:hidden">
+      {/* <div className="absolute object-right text-xs text-right right-1 dark:bg-primary_green-0 px-2 animate-pulse py-2 rounded-full opacity-80 bg-black top-20 lg:hidden">
         <ThemeChanger />
-      </div>
+      </div> */}
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50 dark:bg-darkmode_gray-0 dark:transition-colors ">
         <div className="first-section mb-10 flex flex-col md:flex-row">
           <div className="basis-1/2 relative">
@@ -104,10 +79,7 @@ export default function Home() {
               <br />
               <b> 1st May - 10th June 2024 </b>
             </div>
-{/* 
-            <div className="ring mb-4 ring-primary_green-0 text-white ring-offset-4 ring-offset-white dark:ring-offset-darkmode_gray-0 rounded-2xl w-full h-20 flex items-center justify-center drop-shadow-2xl">
-              <h2 className="font-serif text-center font-medium text-2xl 1.5rem 2rem text-black dark:text-white"><b>GSSoC&apos;23 Job Fair</b> is coming soon!</h2>
-            </div> */}
+
             <br></br>
             <div className="flex items-center mt-2 mb-10 md:mb-52 lg:mb-56">
               <a className="" href="https://forms.gle/p7pSN3YHPRDAgfom9">
@@ -119,7 +91,7 @@ export default function Home() {
                   Register Here
                 </button>
               </a>
-              <a data-aos="fade-down" href="#about-gssoc">
+              <a data-aos="fade-down" href="#about-tgcc">
                 <div className="font-serif font-medium text-md text-primary_green-0 ml-9 md:text-2xl">
                   Learn More
                 </div>
@@ -133,16 +105,11 @@ export default function Home() {
               options={{ max: 25 }}
               style={{ height: 600, width: 600 }}
             >
-              <div className="img__container">{
-                theme === 'light' ?
+              <div className="img__container">
                   <img
                     src={"./hero-image.png"}
                     alt="hero-image"
                   /> :
-                  <img
-                    src={"./hero-image.png"}
-                    alt="hero-image"
-                  />}
               </div>
             </Tilt>
           </div>
@@ -151,7 +118,7 @@ export default function Home() {
 
         <div className="flex justify-between items-center flex-wrap mb-24">
           <div
-            className="border-4 rounded drop-shadow-xl border-black dark:border-white"
+            className="border-4 rounded drop-shadow-xl border-black"
             data-aos="flip-left"
             data-aos-duration="700"
           >
@@ -195,7 +162,7 @@ export default function Home() {
 
         <div
           className="flex flex-row justify-between items-center bg-[#E5EFF8] dark:bg-black flex-wrap rounded-xl mb-24"
-          id="about-gssoc"
+          id="about-tgcc"
         >
           <div className="px-4 pt-3 lg:text-right rounded-xl md:w-1/2 lg:my-4 lg:px-10 lg:py-10 lg:w-1/2">
             {theme === "light" ? (
@@ -230,8 +197,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="pr-4 font-semibold pt-3 rounded-lg lg:my-4 lg:px-2 lg:py-10 ">
-            <div className="dark:bg-black  dark:transition-colors bg-stone-50 shadow-lg rounded-lg my-1 px-1 w-64 sm:w-fit">
+          <div className="pr-4 font-semibold pt-3 rounded-lg lg:my-4 lg:px-2 lg:py-10 ml-4 md:mr-4">
+            <div className="dark:bg-black  dark:transition-colors bg-stone-50 shadow-lg rounded-lg my-1 px-1 pr-2 w-64 sm:w-fit">
               <h1 className="mt-8 pt-6 pl-8 text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                 TGCC 2023-24
               </h1>
@@ -351,9 +318,6 @@ export default function Home() {
         </div>
         <div className="organisation">
           <div className="hidden lg:block 3xl:hidden">
-            <div className="absolute left-0 top-[130rem]">
-              <Map />
-            </div>
           </div>
 
           {/* <p className="font-sans font-semibold dark:text-white text-center text-gray-800 text-4xl 2.25rem 3rem mb-8">
@@ -413,7 +377,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./iiit-kota.png"
+                    src="./assets/logos/iiit-kota.png"
                     alt="IIIT Kota"
                   />
                 </a>
@@ -423,7 +387,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./iiit_nagpur.png"
+                    src="./assets/logos/iiit_nagpur.png"
                     alt="IIIT Nagpur"
                   />
                 </a>
@@ -433,7 +397,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./jiit-noida.png"
+                    src="./assets/logos/jiit-noida.png"
                     alt="JIIT Noida"
                   />
                 </a>
@@ -445,7 +409,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-20"
-                    src="./rg-academy.png"
+                    src="./assets/logos/rg-academy.png"
                     alt="RG Academy Ajmer"
                   />
                 </a>
@@ -455,36 +419,12 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-20"
-                    src="./siddham-academy.jpg"
+                    src="./assets/logos/siddham-academy.png"
                     alt="Siddham Academy Ajmer"
                   />
                 </a>
              </div>
               
-              {/* <h3 className=" dark:text-gray-800 text-primary_green-0 font-sans font-semibold text-4xl  mb-10 place-content-center mt-10">
-                Partner NGOs
-              </h3>
-              <div className="flex flex-col sm:flex-row flex-wrap gap-x-20 gap-y-4 md:gap-y-8 justify-evenly items-center mb-5">
-                <a href="https://www.taskade.com/#gssoc22">
-                  <img
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom"
-                    className="h-16"
-                    src="./Sponsors/Taskade.png"
-                    alt=""
-                  />
-                </a>
-
-                <a href="https://gen.xyz/#gssoc23">
-                  <img
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom"
-                    className="h-16"
-                    src="./Sponsors/dotXYZ.png"
-                    alt=""
-                  />
-                </a>
-              </div> */}
 
               <h3 className=" dark:text-gray-800 text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center mt-5 text-center">
                 GeoTagging Partner
@@ -495,7 +435,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-16"
-                    src="./tia.png"
+                    src="./assets/logos/tia.png"
                     alt="Tia Plant Care"
                   />
                 </a>
@@ -505,30 +445,30 @@ export default function Home() {
                 Past Collaborations
               </h3>
               <div className="flex flex-col sm:flex-row flex-wrap gap-x-28 justify-between items-center mb-5 gap-y-10 md:gap-y-8 ">
-                <a href="https://moralis.io/#gssoc22">
+                <a href="">
                   <img
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-20"
-                    src="./team_shunya.png"
+                    src="./assets/logos/team_shunya.png"
                     alt="Team Shunya"
                   />
                 </a>
-                <a href="https://filecoin.io/#gssoc22">
+                <a href="">
                   <img
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./nss-logo.png"
+                    src="./assets/logos/nss-logo.png"
                     alt="NSS IIT Bombay"
                   />
                 </a>
-                <a href="https://filecoin.io/#gssoc22">
+                <a href="">
                   <img
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./LDL_logo.png"
+                    src="./assets/logos/LDL_logo.png"
                     alt="Light de Literacy"
                   />
                 </a>
@@ -612,19 +552,8 @@ export default function Home() {
             <span className="text-primary_green-0">Schedule</span> of TGCC
             2024!
           </p>
-        {/*   {theme === "light" ? (
-            <img
-              id="Learn_more"
-              className="mb-10"
-              src="/GSSoC_Schedule_Light_Mode.png"
-            />
-          ) : (
-            <img
-              id="Learn_more"
-              className="mb-10"
-              src="/GSSoC_Schedule_Dark_Mode.png"
-            />
-          )} */}
+       <img src=""/>
+          
         </div>
       </div>
     </div>
