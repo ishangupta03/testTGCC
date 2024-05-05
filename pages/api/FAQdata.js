@@ -1,8 +1,8 @@
 export const accordionData = [
     {
         id: 1,
-        question: 'Will a beginner, with absolutely no knowledge of github, gain anythi',
-        answer: 'Yeah, definitely. The organization is meant to assist the beginners grow in the field of development. We’ll have distinct projects appropriate both for beginners as well as the accolades and thereby we’ll make sure that each and every participant gets to learn something new from the projects he or she is contributing for. '
+        question: 'What is Team Green Campus Chapters?',
+        answer: 'Team Green Campus Chapters is a program initiated by Team Green Organization, with a focus on environmental welfare within and beyond campus boundaries. It aims to empower students to take action for sustainability and environmental conservation through various initiatives and projects.'
     },
     {
         id: 2,
@@ -16,13 +16,13 @@ export const accordionData = [
     },
     {
         id: 4,
-        question: 'How will we receive the prizes (if won) and certificate?',
-        answer: 'We’ll be providing all the participants with the digital certificate. The prize money to all the concerned students will be sent to their bank accounts. We’ll ask for the bank account details via an email after the conclusion of the event. '
+        question: 'Is there a membership fee to join Team Green Campus Chapters?',
+        answer: 'No, membership in Team Green Campus Chapters is completely free.'
     },
     {
         id: 5,
         question: 'By what time will the result come?',
-        answer: 'The results will be declared in the second week of August. '
+        answer: 'The results will be declared in the second week of July. '
     },
     {
         id: 6,
@@ -41,8 +41,8 @@ export const accordionData = [
     },
     {
         id: 9,
-        question: 'How will participants communicate with mentors and admins?',
-        answer: 'All communication will happen on the corresponding channel for the particular project in the official GSSoC ’22 Discord server. '
+        question: 'Can faculty members and staff get involved?',
+        answer: 'Absolutely! We welcome the involvement of faculty members, staff, and other campus stakeholders who share our passion for environmental sustainability. Whether you would like to serve as a mentor, guest speaker, or volunteer, there are many ways to contribute to our efforts.'
     },
     {
         id: 10,
