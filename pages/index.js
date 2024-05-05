@@ -451,7 +451,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                     className="h-24"
-                    src="./assets/logos/LDL_logo.png"
+                    src="./assets/logos/ldl-logo.png"
                     alt="Light de Literacy"
                   />
                 </a>
