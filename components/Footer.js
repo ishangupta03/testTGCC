@@ -1,5 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import {
+  faYoutube,
+  faFacebook,
+  faInstagram,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
@@ -17,6 +24,49 @@ const Footer = () => {
                   width={380}
                 />
               </Link>
+              
+      <div className="flex flex-wrap py-6 md:pb-8">
+      <a
+        href="https://www.facebook.com/TeamGreenOrganization"
+        target="_blank"
+        className="transition-colors bg-transparent block text-center text-gray-700 py-2 px-2 text-base hover:text-blue-600 ease-linear hover:ease-in rounded-t-md"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon className="w-8 h-8" icon={faFacebook} size="2x" />
+      </a>
+      <a
+        href="https://www.instagram.com/teamgreenorganization"
+        target="_blank"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-pink-600 ease-linear hover:ease-in"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon className="w-8 h-8" icon={faInstagram} size="2x" />
+      </a>
+      <a
+        href="https://www.linkedin.com/company/team-green-organization/"
+        target="_blank"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-700 ease-linear hover:ease-in"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon className="w-8 h-8" icon={faLinkedin} size="2x" />
+      </a>
+      <a
+        href="https://twitter.com/TeamGreenOrg"
+        target="_blank"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-blue-400 ease-linear hover:ease-in"
+        rel="noreferrer"
+      >
+        <img className="w-8 h-8" src="./x-twitter.svg" />
+      </a>
+      <a
+        href="https://www.youtube.com/@teamgreenorganization"
+        target="_blank"
+        className="transition-colors  bg-transparent block text-center text-gray-700 py-2 px-2 text-base  hover:text-red-600 ease-linear hover:ease-in rounded-b-md"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon className="w-8 h-8" icon={faYoutube} size="2x" />
+      </a>
+      </div>
             </div>
 
             <div className="md:w-2/3 lg:w-1/3 md:px-4 xl:pl-16 mt-12 lg:mt-0">
