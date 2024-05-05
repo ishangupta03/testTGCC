@@ -69,7 +69,7 @@ export default function Home() {
             <div className="font-serif font-medium text-2xl 1.5rem 2rem text-gray-800 ">
              Join us and ignite change for a sustainable future!
               <br />
-              <span className="text-primary_green-0">#GoGreen &nbsp;</span>
+              <span className="text-primary_green-0">#Eco-conscious &nbsp;</span>
               program by Team Green Organization.
               <br />
               <b> 7th May - 10th June 2024 </b>
@@ -294,49 +294,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="organisation">
-          <div className="hidden lg:block 3xl:hidden">
-          </div>
-
-          {/* <p className="font-sans font-semibold  text-center text-gray-800 text-4xl 2.25rem 3rem mb-8">
-          Some of the previous <br />
-          <span className="text-primary_green-0 text-4xl 2.25rem 3rem">
-            participating organisations
-          </span>
-        </p> */}
-          <div className="org__box flex flex-row items-center justify-center flex-wrap">
-            {/* <img
-              data-aos="fade-right"
-              data-aos-duration="500"
-              className="w-20 h-auto mr-12 mb-10 md:mb-0"
-              src="https://github.com/girlscript/gssoc-assets/blob/main/Participating_projects/logo1.png?raw=true"
-              alt="logo"
-            />
-             <img
-              data-aos="fade-right"
-              data-aos-duration="500"
-              className="w-20 h-auto mr-12 mb-10 md:mb-0"
-              src="https://github.com/girlscript/gssoc-assets/blob/main/Participating_projects/logo2.png?raw=true"
-              alt="logo"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-duration="500"
-              className="w-20 h-auto mr-12"
-              src="https://github.com/girlscript/gssoc-assets/blob/main/Participating_projects/logo3.png?raw=true"
-              alt="logo"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-duration="500"
-              className="w-20 h-auto mr-12"
-              src="https://github.com/girlscript/gssoc-assets/blob/main/Participating_projects/logo4.png?raw=true"
-              alt="logo"
-            /> */}
-          </div>
-        </div>
-
-        {/* sponsors */}
+        
+        
+        {/* Partners*/}
         <div className="flex flex-row justify-center px-3 mb-20" id="Sponsors">
           <div className="sponsors__wrapper flex flex-col">
             <div
@@ -456,14 +416,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Slider */}
-        {/* <div className="mb-20">
-          <Slider />
-        </div> */}
+       
 
         <div className="be-part-of">
           <p className="font-sans font-semibold text-center  text-gray-800 text-4xl 2.25rem 3rem ">
-            <span className="text-primary_green-0 text-4xl 2.25rem 3rem">
+            <span className=" text-primary_green-0 text-4xl 2.25rem 3rem">
               Be a part of{" "}
             </span>
             Team Green Campus Community
@@ -481,7 +438,7 @@ export default function Home() {
               <Card
                 disabled
                 title="Start your Journey"
-                content="Participating in GSSoC’23 is an opportunity to upgrade your Github profile. Enrich yourselves to learn, explore, improve, enhance, build connections and become a team player to nourish your skills and personality. Don’t miss a chance to get well-versed with Open-Source and essential tools like Git and Github under the supervision of excellent mentors."
+                content="Participating in TGCC is an opportunity to upgrade your Github profile. Enrich yourselves to learn, explore, improve, enhance, build connections and become a team player to nourish your skills and personality. Don’t miss a chance to get well-versed with  under the supervision of excellent mentors."
                 /* btntext="Apply as a Contributor"
                 link="https://forms.gle/aXSG5y1Qxz2cYK9S6" */
 
@@ -490,7 +447,7 @@ export default function Home() {
               <Card
                 disabled
                 title="Lead the Team"
-                content="Mentors are the experts and take the lead of the open-source project team. They guide the fellow participants at each stage in a road map of the project. They are the backbone of team and are available throughout the summer to review the pull requests and suggest betterment. Apply to be a mentor at Girlscript summer of code and be the foundation of your team."
+                content="Mentors are the experts and take the lead of the open-source project team. They guide the fellow participants at each stage in a road map of the project. They are the backbone of team and are available throughout the summer to review the pull requests and suggest betterment."
                 /* btntext="Apply as a mentor"
                 link="https://forms.gle/M6JqocE8x1RJTJHk8" */
               />
@@ -514,7 +471,7 @@ export default function Home() {
               {/* Card-4 */}
               <Card
                 title="Add a Shade to TGCC"
-                content="Sponsors with their precious resources make it possible for GirlScript to conduct the entire event smoothly, to encourage talent by enabling us to give perks to our top participants. Hence as a token of gratitude, we provide great publicity on our social platforms and exposure on media about our sponsors. Sponsor us to add a bright shade to our program."
+                content="Sponsors with their precious resources make it possible for Team Green to conduct the entire event smoothly, to encourage talent by enabling us to give perks to our top participants. Hence as a token of gratitude, we provide great publicity on our social platforms and exposure on media about our sponsors. Sponsor us to add a bright shade to our program."
                 /* btntext="Sponsor Us"
                 link="https://forms.gle/Eqi4MYb5A3Qw5g5A8" */
               />
