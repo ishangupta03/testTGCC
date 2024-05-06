@@ -62,8 +62,8 @@ export default function Home() {
           <div className="basis-1/2 relative">
             <div className="text-black text-6xl font-sans font-semibold 2.25rem 3rem mb-10">
               <span className="text-primary_green-0">TGCC </span>
-              2024
-              <div className="mt-2">is here!</div>
+              <span className="text-[#2B4257]"> 2024</span>
+              <div className="mt-2 text-[#2B4257]">is here!</div>
             </div>
 
             <div className="font-serif font-medium text-2xl 1.5rem 2rem text-gray-800 ">
@@ -131,8 +131,8 @@ export default function Home() {
                 alt="logo"
               />
             <div className="text-black  font-semibold text-4xl 2.25rem 3rem mb-5 font-sans">
-              About <span className="text-primary_green-0">Team Green </span>
-              Organization
+            <span className="text-[#2B4257]"> About</span> <span className="text-primary_green-0">Team Green </span>
+              <span className="text-[#2B4257]">Organization</span>
             </div>
             <p className=" font-serif text-1xl text-black-100">
             Team Green is an environmental NGO, that radiates dedication to environmental preservation and sustainable living 
@@ -159,7 +159,7 @@ export default function Home() {
                 alt="Learn More light"
               />
             <div className="text-primary_green-0 text-left font-semibold font-sans text-4xl 2.25rem 3rem mb-10 lg:w-[570px]">
-              <h1 className=" text-black text-4xl 2.25rem 3rem">
+              <h1 className=" text-black text-4xl 2.25rem 3rem text-[#2B4257]">
                 About
                 <br />
                 Team Green{" "}
@@ -419,7 +419,7 @@ export default function Home() {
        
 
         <div className="be-part-of">
-          <p className="font-sans font-semibold text-center  text-gray-800 text-4xl 2.25rem 3rem ">
+          <p className="font-sans font-semibold text-center text-[#2B4257] text-4xl 2.25rem 3rem ">
             <span className=" text-primary_green-0 text-4xl 2.25rem 3rem">
               Be a part of{" "}
             </span>
@@ -484,8 +484,8 @@ export default function Home() {
       <div className="schedule__container flex flex-col items-center mb-48 ">
         <div className="schedule__overview mt-24 relative">
           <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4   text-center">
-            <span className="text-primary_green-0">Schedule</span> of TGCC
-            2024!
+            <span className="text-primary_green-0">Schedule</span> <span className="text-[#2B4257]">of TGCC
+            2024!</span>
           </p>
        <img src=""/>
           
