@@ -16,10 +16,6 @@ module.exports = {
         },
         primary_grey:"#595858"
         ,
-        code_of_conduct:{
-          0: "#464646",
-          1: "#FF6900",
-        },
         facebook:{
           0: "#1877F2",
         },
