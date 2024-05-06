@@ -24,7 +24,7 @@ const DiabloAccordion = ({ question, answer }) => {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4} color='#000000' backgroundColor='#FFFFFF'>
+            <AccordionPanel pb={4} color='#595858' backgroundColor='#FFFFFF'>
               {answer}
             </AccordionPanel>
           </AccordionItem>
