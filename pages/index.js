@@ -72,7 +72,7 @@ export default function Home() {
               <span className="text-primary_green-0">#Eco-conscious &nbsp;</span>
               program by Team Green Organization.
               <br />
-              <b> 7th May - 10th June 2024 </b>
+              <b className="text-[#2B4257]"> 7th May - 10th June 2024 </b>
             </div>
 
             <br></br>
@@ -134,15 +134,14 @@ export default function Home() {
             <span className="text-[#2B4257]"> About</span> <span className="text-primary_green-0">Team Green </span>
               <span className="text-[#2B4257]">Organization</span>
             </div>
-            <p className=" font-serif text-xl text-primary_grey">
+            <p className=" font-serif text-xl text-primary_grey ">
             Team Green is an environmental NGO, that radiates dedication to environmental preservation and sustainable living 
             with its core philosophy of “for the society, by the society”. Team Green has passionately championed awareness, 
             promoted eco-friendly practices, and catalyzed initiatives that honor our planet.
             In 2021, the seeds of compassion sprouted into the &quot;Helping in Need by Team Green&quot; sub-unit, exemplifying that 
             environmental responsibility extends beyond nature itself to include aiding those in need.
-            Born in May 2023, the Team Green Campus Chapter (TGCC) carries the organization&apos;s legacy forward, 
+            Born in 2023, the Team Green Campus Chapter (TGCC) carries the organization&apos;s legacy forward, 
             uniting young minds to champion sustainability and environmental stewardship.
-            TGCC is a testament to Team Green&apos;s enduring commitment.
             </p>
           </div>
         </div>
