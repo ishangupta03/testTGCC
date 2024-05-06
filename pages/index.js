@@ -159,7 +159,7 @@ export default function Home() {
                 alt="Learn More light"
               />
             <div className="text-primary_green-0 text-left font-semibold font-sans text-4xl 2.25rem 3rem mb-10 lg:w-[570px]">
-              <h1 className=" text-black text-4xl 2.25rem 3rem text-[#2B4257]">
+              <h1 className="text-4xl 2.25rem 3rem text-[#2B4257]">
                 About
                 <br />
                 Team Green{" "}
