@@ -4,11 +4,11 @@ function Cards(props) {
       <article className="overflow-hidden rounded-lg flex justify-between flex-col">
         <div>
           <header className="flex items-center p-2 md:p-4">
-            <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">
+            <h1 className="text-[#2B4257] font-semibold text-3xl 1.875 rem 2.25 rem">
               {props.title}
             </h1>
           </header>
-          <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
+          <p className="text-primary_grey font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
             {props.content}
           </p>
         </div>

@@ -14,6 +14,8 @@ module.exports = {
         primary_green: {
           0: "#45B649",
         },
+        primary_grey:"#595858"
+        ,
         code_of_conduct:{
           0: "#464646",
           1: "#FF6900",

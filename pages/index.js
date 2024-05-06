@@ -134,7 +134,7 @@ export default function Home() {
             <span className="text-[#2B4257]"> About</span> <span className="text-primary_green-0">Team Green </span>
               <span className="text-[#2B4257]">Organization</span>
             </div>
-            <p className=" font-serif text-1xl text-black-100">
+            <p className=" font-serif text-xl text-primary_grey">
             Team Green is an environmental NGO, that radiates dedication to environmental preservation and sustainable living 
             with its core philosophy of “for the society, by the society”. Team Green has passionately championed awareness, 
             promoted eco-friendly practices, and catalyzed initiatives that honor our planet.
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
 
         <div
-          className="flex flex-row justify-between items-center bg-[#E5EFF8] flex-wrap rounded-xl mb-24"
+          className="flex flex-row justify-between items-center bg-[#F1F7FD] flex-wrap rounded-xl mb-24"
           id="about-tgcc"
         >
           <div className="px-4 pt-3 lg:text-right rounded-xl md:w-1/2 lg:my-4 lg:px-10 lg:py-10 lg:w-1/2">
@@ -166,7 +166,7 @@ export default function Home() {
               </h1>
               Campus Chapters
             </div>
-            <p className=" font-serif text-left text-xl">
+            <p className=" font-serif text-left text-xl text-primary_grey">
             With its roots embedded in Team Green&apos;s legacy, TGCC unites young minds to carry forth the torch of sustainability and environmental stewardship.
             TGCC comprises a dedicated group of students who have taken up the mantle of safeguarding our environment and promoting sustainable practices. 
 
