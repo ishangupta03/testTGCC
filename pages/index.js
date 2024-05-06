@@ -33,7 +33,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Team Green Campus Chapters" />
         <meta property="og:description" content="Caring for mother Earth" />
-        <meta property="og:image" content="https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png" />
+        <meta property="og:image" content="" />
 
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://gssoc.girlscript.tech/" />
         <meta name="twitter:title" content="Team Green Campus Chapters" />
         <meta name="twitter:description" content="TGCC'23 is here!" />
-        <meta name="twitter:image" content="https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png" />
+        <meta name="twitter:image" content="" />
 
 
       </Head>

@@ -24,10 +24,10 @@ const Team = () => {
           Team | Team Green Campus Chapter | Team Green Organization
         </title>
         <meta name="description" content="Our Team - Team Green Campus Chapters" />
-        {/* <link
+        <link
           rel="icon"
-          href="https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png"
-        /> */}
+          href="./TG_Logo_White.png"
+        />
       </Head>
       <div className="items-center justify-center">
         <p className="font-sans text-center text-2xl font-extrabold text-black-100">

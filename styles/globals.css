@@ -344,58 +344,8 @@ html {
 .keen-slider__slide {
   width: "300px";
 }
-/* #OrangeCon {
-  background: linear-gradient(240deg, #eb5a0c, #fd7617);
-  background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 36s ease infinite;
-  -moz-animation: AnimationName 36s ease infinite;
-  animation: AnimationName 36s ease infinite;
-}
 
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 23%;
-  }
-  50% {
-    background-position: 100% 78%;
-  }
-  100% {
-    background-position: 0% 23%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 23%;
-  }
-  50% {
-    background-position: 100% 78%;
-  }
-  100% {
-    background-position: 0% 23%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 23%;
-  }
-  50% {
-    background-position: 100% 78%;
-  }
-  100% {
-    background-position: 0% 23%;
-  }
-} */
-#OrangeCon {
-  background-color: #eb5a0c;
-  opacity: 1;
-  background-image: repeating-radial-gradient(
-      circle at 0 0,
-      transparent 0,
-      #eb5a0c 30px
-    ),
-    repeating-linear-gradient(#a8400855, #a84008);
-}
 #BlackCon {
   background-color: #000000;
   opacity: 1;
