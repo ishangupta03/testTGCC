@@ -437,18 +437,14 @@ export default function Home() {
               <Card
                 disabled
                 title="Start your Journey"
-                content="Participating in TGCC is an opportunity to upgrade your Github profile. Enrich yourselves to learn, explore, improve, enhance, build connections and become a team player to nourish your skills and personality. Don’t miss a chance to get well-versed with  under the supervision of excellent mentors."
-                /* btntext="Apply as a Contributor"
-                link="https://forms.gle/aXSG5y1Qxz2cYK9S6" */
+                content="Joining Team Green Campus Chapters isn't just about environmental activism – it's about unlocking your leadership potential. Get ready to lead the charge for change, organize impactful events, and inspire others to join the movement. Elevate your skills, boost your confidence, and become a leader worth following."
 
               />
               {/* Card-2 */}
               <Card
                 disabled
-                title="Lead the Team"
-                content="Mentors are the experts and take the lead of the open-source project team. They guide the fellow participants at each stage in a road map of the project. They are the backbone of team and are available throughout the summer to review the pull requests and suggest betterment."
-                /* btntext="Apply as a mentor"
-                link="https://forms.gle/M6JqocE8x1RJTJHk8" */
+                title="Network Growth"
+                content="Team Green Campus Chapters connects you with a nation-wode network of environmentally-conscious students, professionals, and organizations. Through collaboration on projects and participation in events, you'll have the opportunity to build meaningful relationships, exchange ideas, and learn from others who share your passion for environmental sustainability."
               />
             </div>
           </div>
@@ -461,18 +457,14 @@ export default function Home() {
               {/* Card-3 */}
               <Card
                 disabled
-                title="Inviting Projects &amp; NGOs"
-                content="If you are an organization with a project idea in mind, a website or an app then this is the golden opportunity to become a part of an awesome community. The budding developers under the guidance of expert mentors will work on your projects and strive to achieve the best version. Apply and let’s collaborate together because Together Everyone Achieves More."
-                /* btntext="Apply as an Organization/Project Admin"
-                link="https://forms.gle/4F2PCMut9Ebi2GPY8" */
+                title="Hands-On Experience"
+                content="Team Green Campus Chapters offer a platform for you to actively engage in environmental conservation efforts on your campus and in your community. Whether it's organizing tree planting drives, expert talks, or advocating for sustainable practices, you'll gain practical experience and make a tangible impact on the environment. Join us and be a changemaker! #GoGreen #CaringForMotherEarth"
               />
 
               {/* Card-4 */}
               <Card
-                title="Add a Shade to TGCC"
-                content="Sponsors with their precious resources make it possible for Team Green to conduct the entire event smoothly, to encourage talent by enabling us to give perks to our top participants. Hence as a token of gratitude, we provide great publicity on our social platforms and exposure on media about our sponsors. Sponsor us to add a bright shade to our program."
-                /* btntext="Sponsor Us"
-                link="https://forms.gle/Eqi4MYb5A3Qw5g5A8" */
+                title="Recognition &amp; Rewards"
+                content="Upon completing your term with Team Green Campus Chapters, you'll receive a personalized certificate acknowledging your contributions to sustainability. Additionaly, a tree will be planted in your name as a symbol of your dedication to environmental conservation. But that's not all! Top performers will also receive goodies based on their performance, rewarding your efforts in making a tangible impact on the planet."
               />
             </div>
           </div>
