@@ -1,7 +1,7 @@
 const Datas = [
   {
     id: "1",
-    head: "Do not spam. If any member is found spamming on this server, then they will face severe consequences. Spamming includes excessive copy-pastes, picture/ meme/ links/ GIF spam, reaction spam, any form of phishing link/NSFW/obscene content, and walls of text.",
+    head: "Demonstrate a sincere commitment to environmental sustainability in all activities and interactions. Strive to minimize your ecological footprint, promote sustainable practices, and advocate for positive environmental change both on and off campus.",
   },
   {
     id: "2",
@@ -13,7 +13,7 @@ const Datas = [
   },
   {
     id: "4",
-    head: "Every channel in this server is created for a specific purpose. Make sure you convey the message in the right channel. Always keep within the designated topic of every channel.",
+    head: "Embrace a spirit of collaboration and cooperation within the Team Green community. Work together with fellow members, campus stakeholders, and external partners to achieve shared goals and maximize collective impact.",
   },
   {
     id: "5",
@@ -21,7 +21,7 @@ const Datas = [
   },
   {
     id: "6",
-    head: "Once you have created a username for yourself, maintain the same throughout the program. If any participant changes his/her username, then the username which is not registered with the organizing committee will cease to be a part of the program.",
+    head: "Maintain professionalism in all interactions, whether online, in-person, or during events and activities.",
   },
   {
     id: "7",
@@ -29,19 +29,19 @@ const Datas = [
   },
   {
     id: "8",
-    head: "Please do not create official or unofficial groups on WhatsApp, Signal, Telegram, Slack, or any other social networking apps without the sole permission of the organizers.",
+    head: "Conduct all activities with honesty, integrity, and transparency, upholding the values of Team Green.",
   },
   {
     id: "9",
-    head: "Do not disrespect moderators, team members, organizers, sponsors, admins, mentors, contributors, and industry professionals or anyone else in the server as it is not allowed to disrespect anyone",
+    head: "Do not disrespect moderators, team members, organizers, sponsors, admins, mentors, and industry professionals or anyone else in the server as it is not allowed to disrespect anyone.",
   },
   {
     id: "10",
-    head: "Abstain from Direct Messaging to moderators, organizers, sponsors, admins, mentors, contributors, and industry professionals other than the team members without prior permission.",
+    head: "Abstain from Direct Messaging to moderators, organizers, sponsors, admins, mentors, and industry professionals other than the team members without prior permission.",
   },
   {
     id: "11",
-    head: "You are expected to have a patient and a motivating nature throughout the program as that what opensource is about. Always maintain good behavior by respecting your fellow teammates, mentors, admins, and the organizing members.",
+    head: "Strive for continuous personal and collective improvement, learning from experiences and feedback to enhance the effectiveness and impact of Team Green Campus Chapters..",
   },
 
   {
