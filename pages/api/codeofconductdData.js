@@ -50,7 +50,7 @@ const Datas = [
   },
   {
     id: "13",
-    head: "Failure to maintain the code of conduct will result in termination of participation in GSSoC. If you're removed at any point you will not be added back to program so be careful.",
+    head: "Failure to maintain the code of conduct will result in termination of participation in TGCC. If you're removed at any point you will not be added back to program so be careful.",
   },
 ];
 

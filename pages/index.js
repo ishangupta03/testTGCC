@@ -37,8 +37,8 @@ export default function Home() {
 
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="gssoc.girlscript.tech" />
-        <meta property="twitter:url" content="https://gssoc.girlscript.tech/" />
+        <meta property="twitter:domain" content="tgcc.teamgreen.org.in" />
+        <meta property="twitter:url" content="https://tgcc.teamgreen.org.in" />
         <meta name="twitter:title" content="Team Green Campus Chapters" />
         <meta name="twitter:description" content="TGCC'23 is here!" />
         <meta name="twitter:image" content="" />
