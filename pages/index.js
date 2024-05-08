@@ -210,7 +210,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={7} /> : null} +</div>
+                          <div>{isVisible ? <CountUp end={5} /> : null}.</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -264,7 +264,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={4} /> : null}+</div> 
+                          <div>{isVisible ? <CountUp end={4} /> : null}.</div> 
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -280,7 +280,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={50} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={40} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -473,12 +473,12 @@ export default function Home() {
 
       {/* Schedule */}
       <div className="schedule__container flex flex-col items-center mb-48 ">
-        <div className="schedule__overview mt-24 relative">
+        <div className="schedule__overview mt-16 relative">
           <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4   text-center">
             <span className="text-primary_green-0">Schedule</span> <span className="text-[#2B4257]">of TGCC
             2024!</span>
           </p>
-       <img src=""/>
+       <img class="rounded" id="Learn_more" src="./assets/flow.png"/>
           
         </div>
       </div>
