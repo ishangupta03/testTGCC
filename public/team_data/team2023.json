@@ -3,7 +3,7 @@
         "Name": "Ishan Gupta",
         "Email": "",
         "Designation": "Founder & Director",
-        "Image": "./test-2.jpeg",
+        "Image": "./assets/team/ishan-gupta.jpeg",
         "GitHub": "https://github.com",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
@@ -21,7 +21,7 @@
         "Name": "Vedansh Goyal",
         "Email": "",
         "Designation": "Tech Team",
-        "Image": "./test.jpg",
+        "Image": "./assets/team/Vedansh_Goyal.jpeg",
         "GitHub": "",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
@@ -30,7 +30,7 @@
         "Name": "Chinmay Malhotra",
         "Email": "",
         "Designation": "TGCC Lead'23, JIIT Noida",
-        "Image": "./test.jpg",
+        "Image": "./assets/team/Chinmay_Malhotra.jpg",
         "GitHub": "",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
@@ -39,7 +39,7 @@
         "Name": "Hardik Sharma",
         "Email": "",
         "Designation": "TGCC Lead'23, IIIT Nagpur ",
-        "Image": "./test.jpg",
+        "Image": "./assets/team/aviral-agarwal.jpeg",
         "GitHub": "",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
