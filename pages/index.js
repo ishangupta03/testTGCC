@@ -478,7 +478,7 @@ export default function Home() {
             <span className="text-primary_green-0">Schedule</span> <span className="text-[#2B4257]">of TGCC
             2024!</span>
           </p>
-       <img class="rounded" id="Learn_more" src="./assets/flow.png"/>
+       <img src="./assets/flow.png"/>
           
         </div>
       </div>
