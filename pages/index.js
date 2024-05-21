@@ -174,8 +174,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="pr-4 font-semibold pt-3 rounded-lg lg:my-4 lg:px-2 lg:py-10 ml-4 md:mr-4">
-            <div className="bg-stone-50 shadow-lg rounded-lg my-1 px-1 pr-2 w-64 sm:w-fit">
+          <div className="pr-4 font-semibold pt-3 rounded-lg lg:my-4 lg:px-2 lg:py-10 ml-4 md:mr-4 max-sm:w-full">
+            <div className="bg-stone-50 shadow-lg rounded-lg my-1 px-1 pr-2 w-64 sm:w-fit max-sm:w-full">
               <h1 className="mt-8 pt-6 pl-8 text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                 TGCC 2023-24
               </h1>
@@ -184,7 +184,7 @@ export default function Home() {
                 by the numbers
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 xl:grid-cols-2 gap-2 mb-4">
-                <div className="statscol">
+                <div className="statscol max-sm:w-full">
                   <div className="mt-4 pt-4 pl-8">
                     <h1 className="text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                       <VisibilitySensor
@@ -210,7 +210,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={5} /> : null}.</div>
+                          <div>{isVisible ? <CountUp end={5} /> : "5"}</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -238,7 +238,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="statscol">
+                <div className="statscol max-sm:w-full">
                   <div className="mt-4 pt-4 pl-8 pr-4">
                     <h1 className="text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                       <VisibilitySensor
@@ -264,7 +264,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={4} /> : null}.</div> 
+                          <div>{isVisible ? <CountUp end={4} /> : '4'}</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -472,7 +472,7 @@ export default function Home() {
       </div>
 
       {/* Schedule */}
-      <div className="schedule__container flex flex-col items-center mb-48 ">
+      <div className="schedule__container flex flex-col items-center mb-24 max-sm:mb-12 ">
         <div className="schedule__overview mt-16 relative">
           <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4   text-center">
             <span className="text-primary_green-0">Schedule</span> <span className="text-[#2B4257]">of TGCC
