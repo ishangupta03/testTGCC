@@ -31,7 +31,7 @@ export const Navbar = () => {
       <nav className="flex items-center transition-colors flex-wrap bg-white drop-shadow-xl p-1 justify-center mb-10 sticky top-0 z-10">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
-            <span className="text-xl text-green font-bold uppercase tracking-wide  ml-8">
+            <span className="text-xl text-green font-bold uppercase tracking-wide  md:ml-8">
              
                 <Image
                   // style={{ width: "200px" }}

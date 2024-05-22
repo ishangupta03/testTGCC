@@ -57,7 +57,7 @@ export default function Home() {
       </div>
       <SocialFollow />
       
-      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
+      <div className="container transition-colors mx-auto md:mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="first-section mb-10 flex flex-col md:flex-row">
           <div className="basis-1/2 relative">
             <div className="text-black text-6xl font-[Montserrat Alternates] font-semibold 2.25rem 3rem mb-10">

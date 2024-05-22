@@ -34,7 +34,7 @@ const Team = () => {
           <p className="font-[Montserrat Alternates] text-4xl md:text-5xl text center font-bold flex wrap justify-center flex-col md:flex-row mb-10">
             <h1 className="text-[#2B4257]">Meet the Team</h1>
           </p>
-          <p className=" mr-5 ml-5 text-primary_green-0 font-[Montserrat Alternates] font-medium">
+          <p className=" mr-5 ml-5 text-primary_green-0">
             Team Green is here to make your journey memorable!
           </p>
         </p>
