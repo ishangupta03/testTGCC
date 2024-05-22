@@ -15,7 +15,7 @@ function Faq() {
       </Head>
       <section className="flex flex-col items-center md:mb-10">
       
-          <h1 className="text-primary_green-0 font-[Montserrat Alternates] text-3xl md:text-5xl text-center font-bold mb-5">
+          <h1 className="text-primary_green-0 font-[Montserrat Alternates] text-4xl ml-5 mr-5 md:text-5xl text-center font-bold mb-5">
             Frequently Asked Questions (FAQs)
           </h1>
         

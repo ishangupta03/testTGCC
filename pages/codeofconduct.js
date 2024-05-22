@@ -17,7 +17,7 @@ const Content = () => {
           href="./TG_Logo_White.png"
         />
       </Head>
-      <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
+      <div className="container transition-colors mx-auto mt-10 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
           <div className="text-center text-2xl">
             <p className="text-primary_green-0 text-3xl md:text-5xl text center font-bold flex wrap justify-center flex-col md:flex-row mb-10 ">
