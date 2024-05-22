@@ -60,8 +60,8 @@ export default function Home() {
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="first-section mb-10 flex flex-col md:flex-row">
           <div className="basis-1/2 relative">
-            <div className="text-black text-6xl font-sans font-semibold 2.25rem 3rem mb-10">
-              <span className="text-primary_green-0">TGCC </span>
+            <div className="text-black text-6xl font-[Montserrat Alternates] font-semibold 2.25rem 3rem mb-10">
+              <span className="text-primary_green-0 font-bold">TGCC </span>
               <span className="text-[#2B4257]"> 2024</span>
               <div className="mt-2 text-[#2B4257]">is here!</div>
             </div>
@@ -72,7 +72,7 @@ export default function Home() {
               <span className="text-primary_green-0">#Eco-conscious &nbsp;</span>
               program by Team Green Organization.
               <br />
-              <b className="text-[#2B4257]"> 8th May - 10th June 2024 </b>
+              <b className="text-[#2B4257]"> 23rd May - 15th June 2024 </b>
             </div>
 
             <br></br>
@@ -130,11 +130,11 @@ export default function Home() {
                 src="./tgo-logo.png"
                 alt="logo"
               />
-            <div className="text-black  font-semibold text-4xl 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black  font-semibold text-4xl 2.25rem 3rem mb-5 font-[Montserrat Alternates]">
             <span className="text-[#2B4257]"> About</span> <span className="text-primary_green-0">Team Green </span>
               <span className="text-[#2B4257]">Organization</span>
             </div>
-            <p className=" font-serif text-xl text-primary_grey ">
+              <p className=" font-serif text-xl text-primary_grey ">
             Team Green is an environmental NGO, that radiates dedication to environmental preservation and sustainable living 
             with its core philosophy of “for the society, by the society”. Team Green has passionately championed awareness, 
             promoted eco-friendly practices, and catalyzed initiatives that honor our planet.
@@ -157,7 +157,7 @@ export default function Home() {
                 src="./tgcc-logo.png"
                 alt="Learn More light"
               />
-            <div className="text-primary_green-0 text-left font-semibold font-sans text-4xl 2.25rem 3rem mb-10 lg:w-[570px]">
+            <div className="text-primary_green-0 text-left font-semibold font-[Montserrat Alternates] text-4xl 2.25rem 3rem mb-5 lg:w-[570px]">
               <h1 className="text-4xl 2.25rem 3rem text-[#2B4257]">
                 About
                 <br />
@@ -210,7 +210,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={5} /> : null}.</div>
+                          <div>{isVisible ? <CountUp end={5} /> : '5'}</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -264,7 +264,7 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={4} /> : null}.</div> 
+                          <div>{isVisible ? <CountUp end={4} /> :'4'}</div> 
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -304,7 +304,7 @@ export default function Home() {
               data-aos-duration="400"
               className="bg-white other__sponsors px-9 py-9 shadow-xl rounded flex flex-col justify-center items-center"
             >
-              <h3 className="text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center">
+              <h3 className="text-primary_green-0 font-[Montserrat Alternates] font-semibold text-4xl  mb-5 place-content-center">
                 Our Chapters
               </h3>
 
@@ -363,7 +363,7 @@ export default function Home() {
              </div>
               
 
-              <h3 className="text-primary_green-0 font-sans font-semibold text-4xl  mb-5 place-content-center mt-5 text-center">
+              <h3 className="text-primary_green-0 font-[Montserrat Alternates] font-semibold text-4xl  mb-5 place-content-center mt-5 text-center">
                 GeoTagging Partner
               </h3>
               <div className="flex flex-col sm:flex-row flex-wrap gap-x-28 justify-between items-center mt-5">
@@ -378,7 +378,7 @@ export default function Home() {
                 </a>
               </div>
 
-              <h3 className="mt-10 text-primary_green-0 font-sans font-bold text-4xl  mb-12 place-content-center text-center">
+              <h3 className="mt-10 text-primary_green-0 font-[Montserrat Alternates] font-semibold text-4xl  mb-12 place-content-center text-center">
                 Past Collaborations
               </h3>
               <div className="flex flex-col sm:flex-row flex-wrap gap-x-28 justify-between items-center mb-5 gap-y-10 md:gap-y-8 ">
@@ -418,7 +418,7 @@ export default function Home() {
        
 
         <div className="be-part-of">
-          <p className="font-sans font-semibold text-center text-[#2B4257] text-4xl 2.25rem 3rem ">
+          <p className="font-[Montserrat Alternates] font-semibold text-center text-[#2B4257] text-4xl 2.25rem 3rem ">
             <span className=" text-primary_green-0 text-4xl 2.25rem 3rem">
               Be a part of{" "}
             </span>
@@ -474,7 +474,7 @@ export default function Home() {
       {/* Schedule */}
       <div className="schedule__container flex flex-col items-center mb-48 ">
         <div className="schedule__overview mt-16 relative">
-          <p className="font-sans font-semibold text-3xl ml-4 mr-4 mb-4   text-center">
+          <p className="font-[Montserrat Alternates] font-semibold text-4xl ml-4 mr-4 mb-4   text-center">
             <span className="text-primary_green-0">Schedule</span> <span className="text-[#2B4257]">of TGCC
             2024!</span>
           </p>

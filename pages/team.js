@@ -30,11 +30,11 @@ const Team = () => {
         />
       </Head>
       <div className="items-center justify-center">
-        <p className="font-sans text-center text-2xl font-extrabold text-black-100">
-          <p className="text-primary_green-0 font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10">
-            <h1 className="text-primary_green-0">Meet the Team</h1>
+        <p className="text-center text-2xl">
+          <p className="font-[Montserrat Alternates] text-4xl md:text-5xl text center font-bold flex wrap justify-center flex-col md:flex-row mb-10">
+            <h1 className="text-[#2B4257]">Meet the Team</h1>
           </p>
-          <p className=" text-primary_green-0 font-serif font-light">
+          <p className=" text-primary_green-0 font-[Montserrat Alternates] font-medium">
             Team Green is here to make your journey memorable!
           </p>
         </p>

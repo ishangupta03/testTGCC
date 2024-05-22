@@ -4,28 +4,19 @@ function info() {
     <div>
       <Head>
         <title>
-        How TGCC Works? | GirlScript Summer of Code 2023 | GirlScript Foundation India
+        Eligibility? | Team Green Campus Chapters | Team Green Organization
         </title>
-        <meta name="description" content="GirlScript Summer of Code Certificates" />
+        <meta name="description" content="Eligibilty Criteria & Responsibilities - TGCC" />
       </Head>
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
           <div className="font-sans text-center text-2xl font-extrabold">
-            <p className="text-black text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
-              What {""}
-              <span className="text-primary_green-0">they</span> do?
+            <p className="text-black text-4xl text center font-extrabold mb-10">
+              What
             </p>
           </div>
         </div>
         <div className="first-section mb-10 flex flex-col md:flex-row justify-between flex-auto items-center flex-wrap mb-24">
-          <div data-aos="flip-left" data-aos-duration="500">
-            <img
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/07bf179210769ea9a280f7e87e1f6e5cdc464953/Info/Triangle.svg"
-              // height="453"
-              // width="320"
-              alt="Rectangle light"
-            />
-          </div>
           <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
             <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
               <ul className="list-disc">
@@ -84,57 +75,9 @@ function info() {
 
           </div>
         </div>
-        <div className="items-center justify-center">
-          <div className="font-sans text-center text-2xl font-extrabold text-black-100">
-            <p className="text-black text-4xl text center font-extrabold mb-10 underline underline-offset-4 decoration-primary_green-0">
-              <span className="text-primary_green-0">How&nbsp;</span>
-              they do ?
-            </p>
-          </div>
-        </div>
       </div>
-      <div className="flex flex-row justify-around flex-wrap sm:flex-wrap mb-28">
-        <div className="flex flex-col justify-around align-center items-center sm:flex-col">
-          <div className="flex flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 rounded-lg max-w-[29rem] w-full">
-            Contributors
-          </div>
-          <div className="flex" data-aos="flip-left" data-aos-duration="700">
-            <img
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/8eba35cb8c2fefb3c64cc489d191c4f5a8e4d5a6/Logos/participantinfo.svg"
-              // height="453"
-              // width="320"
-              alt="Rectangle light"
-            />
-          </div>
+      
         </div>
-        <div className="flex flex-col justify-evenly align-center items-center sm:flex-col mt-5">
-          <div className="flex m-auto flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
-            Mentors
-          </div>
-          <div className="flex" data-aos="flip-left" data-aos-duration="700">
-            <img
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/b30ac90ea12dc937c2aa57c77e1dbe904b83d0dd/Logos/mentors-info.svg"
-              // height="483"
-              // width="320"
-              alt="Rectangle light"
-            />
-          </div>
-          <div className="flex flex-col text-white text-2xl font-bold text-center bg-primary_green-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
-            Project Admin
-          </div>
-          <div className="flex" data-aos="flip-left" data-aos-duration="700">
-            <img
-              className="h-0 w-0 "
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/736b2e588142af26560791b90ee898b6de44bead/Logos/projectadmin.svg"
-              // height="453"
-              // width="320"
-              alt="Rectangle light"
-            />
-          </div>
-        </div>
-      </div>
-
-    </div>
   );
 }
 
