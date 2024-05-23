@@ -369,12 +369,12 @@ html {
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
 }
-#PNGCon {
+/* #PNGCon {
   background-image: url("https://user-images.githubusercontent.com/64256342/165560868-8a025a10-992f-46b5-beaf-686aafd78522.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-}
+} */
 #BlobCon {
   /* width: 1000px;
   height: 1000px; */

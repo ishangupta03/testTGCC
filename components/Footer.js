@@ -139,7 +139,7 @@ const Footer = () => {
         <div className="border-t border-solid border-gray-900 mt-4 py-4">
           <div className="container px-4 mx-auto">
             <div className="md:flex md:-mx-4 md:items-center">
-              <div className="md:flex-1 md:px-4 text-center ">
+              <div className="md:flex-1 md:px-4 text-center font-[Montserrat Alternates]">
                 <p className="text-[#2B4257]">
                   &copy;{" "}
                   <strong>

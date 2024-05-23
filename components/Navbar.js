@@ -28,7 +28,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center transition-colors flex-wrap bg-white drop-shadow-xl p-1 justify-center mb-10 sticky top-0 z-10">
+      <nav className="flex items-center transition-colors flex-wrap bg-white drop-shadow-xl p-1 justify-center mb-5 sticky top-0 z-10">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
             <span className="text-xl text-green font-bold uppercase tracking-wide  md:ml-8">
@@ -86,12 +86,14 @@ export const Navbar = () => {
                 EVENTS
               </a>
             </Link>
+            <Link href="">
             <a
-              href="#Contact"
+              
               className="lg:inline-flex lg:w-auto w-full px-3 py-2 mr-30 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black"
             >
               CONTACT
             </a>
+            </Link>
             <Link href="/faq">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 FAQ

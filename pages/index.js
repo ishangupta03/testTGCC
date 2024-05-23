@@ -29,19 +29,19 @@ export default function Home() {
           href="./TG_Logo_White.png"
         />
 
-        <meta property="og:url" content="https://teamgreen.org.in" />
+        <meta property="og:url" content="https://tgcc.teamgreen.org.in" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Team Green Campus Chapters" />
-        <meta property="og:description" content="Caring for mother Earth" />
-        <meta property="og:image" content="" />
+        <meta property="og:description" content="TGCC'24 is here! | Team Green Orgainization - Caring for mother Earth" />
+        <meta property="og:image" content="./TG_Logo_White.png" />
 
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="tgcc.teamgreen.org.in" />
         <meta property="twitter:url" content="https://tgcc.teamgreen.org.in" />
         <meta name="twitter:title" content="Team Green Campus Chapters" />
-        <meta name="twitter:description" content="TGCC'23 is here!" />
-        <meta name="twitter:image" content="" />
+        <meta name="twitter:description" content="TGCC'24 is here!" />
+        <meta name="twitter:image" content="./TG_Logo_White.png" />
 
 
       </Head>
@@ -210,13 +210,13 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={5} /> : '5'}</div>
+                          <div>{isVisible ? <CountUp end={1000} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className="text-2xl text-primary_green-0 1.5rem 2rem ">
                       {" "}
-                      Institutes
+                      Students Engaged
                     </p>
                   </div>
                   <div className="mt-4 pt-4 pl-8">
@@ -227,13 +227,13 @@ export default function Home() {
                       >
                         {({ isVisible }) => (
                           <div>
-                            {isVisible ? <CountUp end={11000} /> : null}+
+                            {isVisible ? <CountUp end={5} /> : '5'}
                           </div>
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className=" mb-6 text-2xl text-primary_green-0 1.5rem 2rem ">
-                      Co2 Emissions Absorbed
+                      Institutes
                     </p>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ export default function Home() {
                       >
                         {({ isVisible }) => (
                           <div>
-                            {isVisible ? <CountUp end={500} /> : null}+
+                            {isVisible ? <CountUp end={550} /> : null}+
                           </div>
                         )}
                       </VisibilitySensor>
@@ -264,13 +264,13 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={4} /> :'4'}</div> 
+                          <div>{isVisible ? <CountUp end={40} /> : null}+</div> 
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className="text-2xl text-primary_green-0 1.5rem 2rem ">
                       {" "}
-                      States
+                      Events
                     </p>
                   </div>
                   <div className="mt-4 pt-4 pl-8">
@@ -280,12 +280,12 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={40} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={4} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className=" mb-6 text-2xl text-primary_green-0 1.5rem 2rem ">
-                      Events
+                      States
                     </p>
                   </div>
                 </div>
