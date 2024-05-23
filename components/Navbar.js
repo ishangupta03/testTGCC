@@ -99,7 +99,7 @@ export const Navbar = () => {
                 FAQ
               </a>
             </Link>
-            <div className="lg:inline-flex lg:w-auto w-full px-2 text-center rounded link link-underline link-underline-black md:mr-3.5">
+            <div className="lg:inline-flex lg:w-auto w-full px-2 pt-1 text-center rounded link link-underline link-underline-black md:mr-3.5">
               <MoreMenu />
             </div>
           </div>

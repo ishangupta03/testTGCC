@@ -72,7 +72,7 @@ export default function Home() {
               <span className="text-primary_green-0">#Eco-conscious &nbsp;</span>
               program by Team Green Organization.
               <br />
-              <b className="text-[#2B4257]"> 23rd May - 15th June 2024 </b>
+              <b className="text-[#2B4257]"> 25th May - 15th June 2024 </b>
             </div>
 
             <br></br>
