@@ -31,7 +31,7 @@ const Team = () => {
       </Head>
       <div className="items-center justify-center">
         <p className="text-center text-2xl">
-          <p className="font-[Montserrat Alternates] text-4xl md:text-5xl text center font-bold flex wrap justify-center flex-col md:flex-row mb-10">
+          <p className="font-[Montserrat Alternates] text-4xl md:text-5xl text center font-bold flex wrap justify-center flex-col md:flex-row mb-6 mt-8">
             <h1 className="text-[#2B4257]">Meet the Team</h1>
           </p>
           <p className=" mr-5 ml-5 text-primary_green-0">
@@ -40,7 +40,7 @@ const Team = () => {
         </p>
       </div>
   
-      <Spacer mt={20} />
+      <Spacer mt={12} />
       <div className="flex flex-row justify-center flex-wrap items-center gap-x-20 gap-y-10 w-100">
         {users.map((curElem, i) => {
           return (
