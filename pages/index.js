@@ -227,19 +227,19 @@ export default function Home() {
                       >
                         {({ isVisible }) => (
                           <div>
-                            {isVisible ? <CountUp end={5} /> : '5'}
+                            {isVisible ? <CountUp end={550} /> : null}+
                           </div>
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className=" mb-6 text-2xl text-primary_green-0 1.5rem 2rem ">
-                      Institutes
+                    Trees Planted
                     </p>
                   </div>
                 </div>
 
                 <div className="statscol">
-                  <div className="mt-4 pt-4 pl-8 pr-4">
+                  <div className="md:mt-4 pt-4 pl-8 pr-4">
                     <h1 className="text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
                       <VisibilitySensor
                         partialVisibility
@@ -247,24 +247,8 @@ export default function Home() {
                       >
                         {({ isVisible }) => (
                           <div>
-                            {isVisible ? <CountUp end={550} /> : null}+
+                            {isVisible ? <CountUp end={40} /> : null}+
                           </div>
-                        )}
-                      </VisibilitySensor>
-                    </h1>
-                    <p className="text-2xl text-primary_green-0 1.5rem 2rem ">
-                      {" "}
-                      Trees Planted
-                    </p>
-                  </div>
-                  <div className="mt-4 pt-4 pl-8">
-                    <h1 className="text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
-                      <VisibilitySensor
-                        partialVisibility
-                        offset={{ bottom: 0 }}
-                      >
-                        {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={40} /> : null}+</div> 
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -280,12 +264,28 @@ export default function Home() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={4} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={5} /> : '5'}</div> 
+                        )}
+                      </VisibilitySensor>
+                    </h1>
+                    <p className="text-2xl text-primary_green-0 1.5rem 2rem ">
+                      {" "}
+                      Institutes
+                    </p>
+                  </div>
+                  <div className="mt-4 pt-4 pl-8">
+                    <h1 className="text-3xl xl:text-4xl text-primary_green-0 3rem 3rem ">
+                      <VisibilitySensor
+                        partialVisibility
+                        offset={{ bottom: 0 }}
+                      >
+                        {({ isVisible }) => (
+                          <div>{isVisible ? <CountUp end={7} /> : '7'}</div>
                         )}
                       </VisibilitySensor>
                     </h1>
                     <p className=" mb-6 text-2xl text-primary_green-0 1.5rem 2rem ">
-                      States
+                      Partners
                     </p>
                   </div>
                 </div>
