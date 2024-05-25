@@ -45,8 +45,8 @@ const Team = () => {
         {users.map((curElem, i) => {
           return (
             <>             
-                 <div className="flex items-center justify-center w-80" key={i}>
-                  <div className="p-4 bg-none border-solid border-2 rounded-xl w-full md:h-fit">
+                 <div className="flex items-center justify-center w-80 p-4 md:p-0" key={i}>
+                  <div className="md:p-8 p-6 bg-none border-solid border-2 rounded-xl w-full md:h-fit">
                     <div className="h-max rounded-lg relative mb-5 hover:-translate-y-4 duration-300 hover:cursor-pointer">
                       <img
                         src={curElem.Image}
