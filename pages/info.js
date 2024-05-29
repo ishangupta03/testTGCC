@@ -10,9 +10,9 @@ function info() {
       </Head>
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
-          <div className="font-sans text-center text-2xl font-extrabold">
-            <p className="text-black text-4xl text center font-extrabold mb-10">
-              What
+          <div className="text-center text-2xl">
+            <p className="text-[#2B4257] text-4xl center font-[Montserrat Alternates] font-bold mb-10">
+              Eligibility Criteria & Responsibilities
             </p>
           </div>
         </div>
