@@ -56,7 +56,7 @@ function info() {
               <ul className="list-disc">
                 <li>
                 <strong className="text-yellow-500 text-2xl">Contributors</strong> should feel free to ask their doubts within the
-                   server/Github project repositories.
+                   
                 </li>
                 <li>
                   Contributors actively and consistently contribute to the

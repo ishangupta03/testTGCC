@@ -444,7 +444,7 @@ export default function Home() {
               <Card
                 disabled
                 title="Network Growth"
-                content="Team Green Campus Chapters connects you with a nation-wode network of environmentally-conscious students, professionals, and organizations. Through collaboration on projects and participation in events, you'll have the opportunity to build meaningful relationships, exchange ideas, and learn from others who share your passion for environmental sustainability."
+                content="Team Green Campus Chapters connects you with a nation-wide network of environmentally-conscious students, professionals, and organizations. Through collaboration on projects and participation in events, you'll have the opportunity to build meaningful relationships, exchange ideas, and learn from others who share your passion for environmental sustainability."
               />
             </div>
           </div>

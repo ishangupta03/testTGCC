@@ -42,7 +42,7 @@ const MoreMenu = () => {
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >
-                    CODE OF CONDUCT
+                    Code of Conduct
                   </a>
                 )}
               </Menu.Item>
@@ -58,7 +58,7 @@ const MoreMenu = () => {
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >
-                    HOW TGCC WORKS ?
+                    Eligibility Criteria
                   </a>
                 )}
               </Menu.Item>

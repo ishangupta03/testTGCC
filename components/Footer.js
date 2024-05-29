@@ -127,7 +127,7 @@ const Footer = () => {
                 help . Be a part, spread knowledge {"& "}
                 happiness.
               </h5>
-              <a href="https://www.girlscript.tech/home">
+              <a href="https://tgcc.teamgreen.org.in">
                 <button className="bg-black text-white hover:bg-slate-800 rounded py-2 px-4 md:px-12 transition-colors duration-300">
                   Explore
                 </button>

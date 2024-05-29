@@ -22,7 +22,7 @@ export const accordionData = [
     {
         id: 5,
         question: 'By what time will the result come?',
-        answer: 'The results will be declared in the second week of July. '
+        answer: 'The results will be declared on 31st July 2024. '
     },
     {
         id: 6,
