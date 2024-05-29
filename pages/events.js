@@ -21,19 +21,16 @@ function info() {
             </p>
           </div>
         </div>
-        <div className="first-section mb-10 flex flex-col md:flex-row justify-between flex-auto items-center flex-wrap mb-24">
-          <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
-            
 
-            <div className="flex justify-center" >
-              <div className="mr-2 ml-2"> <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe/" width={328}/></div>
-              <div className="mr-2 ml-2"> <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe/" width={328}/></div>
-              <div className="mr-2 ml-2"> <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe/" width={328}/></div>
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-4 md:gap-16" >
+              <div className=""> <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe" width={328}/></div>
+              <div> <InstagramEmbed url="https://www.instagram.com/p/C2sYJALhxTw" width={328}/></div>
+              <div> <InstagramEmbed url="https://www.instagram.com/p/C2koaUKIWql" width={328}/></div>
+              <div> <InstagramEmbed url="https://www.instagram.com/p/C1MggLiPP9-" width={328}/></div>
+              <div> <InstagramEmbed url="https://www.instagram.com/p/C1B6HxIPR-9" width={328}/></div>
             </div>
           </div>
-        </div>
-      </div>
-      
+       
         </div>
   );
 }
