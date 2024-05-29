@@ -47,7 +47,7 @@ html {
   animation: float 6s ease-in-out infinite;
 }
 
-/* bg-gradient-to-b from-orange-600 to-primary_green-0 */
+
 #CTA-button {
   transition: ease-in-out 1s;
 }
@@ -82,10 +82,6 @@ html {
   width: 200px;
 }
 
-/* .css-1blinku-TitleWrapper {
-  color: #fc9219;
-  font-size: xx-large;
-} */
 
 .timeline-item-title .active {
   font-size: xx-large;
@@ -200,11 +196,6 @@ html {
   opacity: 1;
 }
 
-.close-btn:hover,
-.view-btn:hover {
-  background-color: #fa500c !important;
-}
-
 
 .modal-score {
   background-color: #ebfaeb;
@@ -268,12 +259,7 @@ html {
 
 /* media queries for the date part of chrono */
 @media screen and (max-width: 600px) {
-  .css-1blinku-TitleWrapper {
-    color: #fc9219;
-    font-size: xx-small !important;
-    text-align: left !important;
-    /* font-weight: bold !important; */
-  }
+ 
   .pagination {
     padding: 0;
   }
@@ -283,13 +269,7 @@ html {
   }
 }
 
-@media screen and (min-width: 601px) {
-  .css-1blinku-TitleWrapper {
-    color: #fc9219;
-    /* font-size: xx-large !important; */
-    /* text-align: left !important; */
-  }
-}
+
 
 @media screen and (max-width: 800px) {
   .search-container {
@@ -361,30 +341,6 @@ html {
 }
 
 
-#BlackCon {
-  background-color: #000000;
-  opacity: 1;
-  background-image: radial-gradient(#fd7617 2px, transparent 2px),
-    radial-gradient(#fd7617 2px, #000000 2px);
-  background-size: 80px 80px;
-  background-position: 0 0, 40px 40px;
-}
-/* #PNGCon {
-  background-image: url("https://user-images.githubusercontent.com/64256342/165560868-8a025a10-992f-46b5-beaf-686aafd78522.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-} */
-#BlobCon {
-  /* width: 1000px;
-  height: 1000px; */
-  background-size: cover;
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3ClinearGradient id=%22linearGradientId%22 gradientTransform=%22rotate(-45 0.5 0.5)%22%3E %3Cstop offset=%220%25%22 stop-color=%22%23fd7617%22 %2F%3E %3Cstop offset=%22100%25%22 stop-color=%22%23eb5a0c%22 %2F%3E %3C%2FlinearGradient%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M787.5%2C682.5Q711%2C865%2C526%2C820Q341%2C775%2C175%2C637.5Q9%2C500%2C164%2C343.5Q319%2C187%2C499.5%2C187.5Q680%2C188%2C772%2C344Q864%2C500%2C787.5%2C682.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23linearGradientId)%22 d=%22M787.5%2C682.5Q711%2C865%2C526%2C820Q341%2C775%2C175%2C637.5Q9%2C500%2C164%2C343.5Q319%2C187%2C499.5%2C187.5Q680%2C188%2C772%2C344Q864%2C500%2C787.5%2C682.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
-}
-
 .skeleton-circle-lg,
 .skeleton-circle-md {
   height: 54px !important;
@@ -409,12 +365,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.text-big-orange {
-  font-size: 30px;
-  font-weight: bold;
-  color: #fd7617;
-  font-family: "Playfair Display", sans-serif;
-}
+
 
 #no-mobile-alert {
   display: none;
@@ -425,9 +376,7 @@ html {
     top: 46%;
     left: 67%;
   }
-  .text-big-orange {
-    font-size: 25px;
-  }
+  
 }
 @media only screen and (max-width: 1210px) {
   .banner {
@@ -437,27 +386,18 @@ html {
     top: 44%;
     left: 60%;
   }
-  .text-big-orange {
-    font-size: 23px;
-  }
+ 
 }
 @media only screen and (max-width: 1175px) {
   .contrib_name {
     top: 43%;
     left: 60%;
   }
-  .text-big-orange {
-    font-size: 20px;
-  }
+
 }
 @media only screen and (max-width: 1080px) {
-  /* .contrib_name, .banner, .text-big-orange{
-    display: none;
-  } */
-  .contrib_name {
-    top: 41%;
-    left: 60%;
-  }
+  
+ 
   #no-mobile-alert {
     display: block;
   }
@@ -465,9 +405,7 @@ html {
 @media only screen and (max-width: 1080px) {
   .contrib_name,
   .banner,
-  .text-big-orange {
-    display: none;
-  }
+  
   #no-mobile-alert {
     display: block;
   }

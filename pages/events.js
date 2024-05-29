@@ -4,9 +4,9 @@ function info() {
     <div>
       <Head>
         <title>
-        Eligibility? | Team Green Campus Chapters | Team Green Organization
+        Events | Team Green Campus Chapters | Team Green Organization
         </title>
-        <meta name="description" content="Eligibilty Criteria & Responsibilities - TGCC" />
+        <meta name="description" content="Past Events - TGCC" />
         <link
           rel="icon"
           href="./TG_Logo_White.png"
@@ -15,14 +15,14 @@ function info() {
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
           <div className="text-center text-2xl">
-            <p className="text-[#2B4257] text-4xl center font-[Montserrat Alternates] font-bold mb-10">
-              Eligibility Criteria & Responsibilities
+            <p className="text-[#2B4257] text-4xl center font_heading font-bold mb-10">
+              Past Events
             </p>
           </div>
         </div>
         <div className="first-section mb-10 flex flex-col md:flex-row justify-between flex-auto items-center flex-wrap mb-24">
           <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
-            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font_para">
               <ul className="list-disc">
                 <li>
                 <strong className="text-blue-500 text-2xl">Project Admins</strong> own the projects where the contributors are

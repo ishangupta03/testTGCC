@@ -81,7 +81,7 @@ export const Navbar = () => {
                 TEAM
               </a>
             </Link>
-           <Link href="https://teamgreen.org.in/blog">
+           <Link href="/events">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 text-center rounded text-grey-800 text-1xl font-medium md:mr-3.5 hover:text-primary_green-0 hover:text-lg transition-all link link-underline link-underline-black">
                 EVENTS
               </a>
