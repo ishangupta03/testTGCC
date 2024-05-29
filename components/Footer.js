@@ -94,23 +94,23 @@ const Footer = () => {
                 </div>
                 <div className="sm:flex-1 mt-4 sm:mt-0">
                   <h6 className="text-lg font-bold text-[#2B4257] uppercase mt-4 md:mt-0 mb-4 hover:underline">
-                    LEGAL
+                    LATEST
                   </h6>
                   <div>
                     <a
-                      href="https://gwoc.girlscript.tech/"
+                      href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       TGCC
                     </a>
                     <a
-                      href="https://uplift.girlscript.tech/"
+                      href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       Uplift Project
                     </a>
                     <a
-                      href="https://summit.girlscript.tech/"
+                      href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       Team Green
