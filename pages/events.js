@@ -56,27 +56,6 @@ function info() {
               </ul>
             </div>
 
-            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-yellow-500 text-2xl">Contributors</strong> should feel free to ask their doubts within the
-                   
-                </li>
-                <li>
-                  Contributors actively and consistently contribute to the
-                  projects after they&apos;re assigned to a particular issue by
-                  a PA/mentor.
-                </li>
-                <li>
-                  The contributors are free to choose &amp; contribute to
-                  multiple projects but they need to submit PRs to the assigned
-                  issues within the fixed time bar set by the particular
-                  project; failing to do so shall result in reassigning of the
-                  issue to someone else.{" "}
-                </li>
-              </ul>
-            </div>
-
           </div>
         </div>
       </div>
