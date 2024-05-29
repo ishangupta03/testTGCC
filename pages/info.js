@@ -1,4 +1,7 @@
+import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import Head from "next/head";
+import Image from "next/image";
+
 function info() {
   return (
     <div>
@@ -26,31 +29,45 @@ function info() {
       <h2 className="text-2xl text-[#2B4257] font-bold mb-4">Criteria</h2>
       <ul className="space-y-4">
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Have a minimum of one year left until graduation</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Enrolled full-time in an undergraduate or graduate program at a college or university</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Commit to program for one year</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Passionate about creating impact in community</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+          <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed"/>
+          </div>
           <span>Technical understanding of computer programming and/or software engineering</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+          <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Have experience with event planning or leading a team</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Have connection to the local developer community</span>
         </li>
       </ul>
@@ -60,27 +77,39 @@ function info() {
       <h2 className="text-2xl text-[#2B4257] font-bold mb-4">Lead Responsibilities</h2>
       <ul className="space-y-4">
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Host an event ideally once a month, or a total of 4 events for the year</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Report activities on event platform regularly</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Assemble a core team to support organize events and workshops</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Participate in program campaigns and events</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Meet with Regional Lead and Community Manager for guidance</span>
         </li>
         <li className="flex items-start">
-          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <div className="w-6 h-6 mr-2">
+            <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
+          </div>
           <span>Adhere to Community Organizer Code of Conduct</span>
         </li>
       </ul>
