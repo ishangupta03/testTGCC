@@ -13,75 +13,91 @@ function info() {
         />
       </Head>
       <div className="container transition-colors mx-auto mt-12 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
-        <div className="items-center justify-center">
-          <div className="text-center text-2xl">
-            <p className="text-[#2B4257] text-4xl center font-[Montserrat Alternates] font-bold mb-10">
-              Eligibility Criteria & Responsibilities
-            </p>
-          </div>
-        </div>
-        <div className="first-section mb-10 flex flex-col md:flex-row justify-between flex-auto items-center flex-wrap mb-24">
-          <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
-            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-blue-500 text-2xl">Project Admins</strong> own the projects where the contributors are
-                  free to contribute in the form of documentation, bug fixes or
-                  adding new features.
-                </li>
-                <li>
-                  PAs have to routinely connect with mentors to discuss about
-                  the progress, proceedings &amp; future vision of the project.
-                </li>
-                <li>
-                  PAs are responsible for final reviews, merging PRs, assigning
-                  labels, guiding the mentors in the review process &amp;
-                  resolving doubts in server.
-                </li>
-              </ul>
-            </div>
+  <div className="items-center justify-center">
+    <div className="text-center text-2xl">
+      <p className="text-[#2B4257] text-4xl center font-[Montserrat Alternates] font-bold mb-14">
+        Eligibility Criteria & Responsibilities
+      </p>
+    </div>
+  </div>
 
-            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-green-500 text-2xl">Mentors</strong> review the Pull Requests, check for plagiarism, and
-                  suggest changes based on the project&apos;s Contribution
-                  guidelines.
-                </li>
-                <li>
-                  They solve queries, debug issues faced by contributors &amp;
-                  are responsible for guiding contributors actively throughout
-                  the program.{" "}
-                </li>
-              </ul>
-            </div>
+  <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
+    <div>
+      <h2 className="text-2xl text-[#2B4257] font-bold mb-4">Criteria</h2>
+      <ul className="space-y-4">
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Have a minimum of one year left until graduation</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Enrolled full-time in an undergraduate or graduate program at a college or university</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Commit to program for one year</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Passionate about creating impact in community</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Technical understanding of computer programming and/or software engineering</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Have experience with event planning or leading a team</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/check-icon.png" alt="Check" className="w-6 h-6 mr-2" />
+          <span>Have connection to the local developer community</span>
+        </li>
+      </ul>
+    </div>
 
-            <div className="text-black font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-yellow-500 text-2xl">Contributors</strong> should feel free to ask their doubts within the
-                   
-                </li>
-                <li>
-                  Contributors actively and consistently contribute to the
-                  projects after they&apos;re assigned to a particular issue by
-                  a PA/mentor.
-                </li>
-                <li>
-                  The contributors are free to choose &amp; contribute to
-                  multiple projects but they need to submit PRs to the assigned
-                  issues within the fixed time bar set by the particular
-                  project; failing to do so shall result in reassigning of the
-                  issue to someone else.{" "}
-                </li>
-              </ul>
-            </div>
+    <div>
+      <h2 className="text-2xl text-[#2B4257] font-bold mb-4">Lead Responsibilities</h2>
+      <ul className="space-y-4">
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Host an event ideally once a month, or a total of 4 events for the year</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Report activities on event platform regularly</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Assemble a core team to support organize events and workshops</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Participate in program campaigns and events</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Meet with Regional Lead and Community Manager for guidance</span>
+        </li>
+        <li className="flex items-start">
+          <img src="/assets/bullet-icon.png" alt="Bullet" className="w-6 h-6 mr-2" />
+          <span>Adhere to Community Organizer Code of Conduct</span>
+        </li>
+      </ul>
+    </div>
 
-          </div>
-        </div>
-      </div>
-      
-        </div>
+    <div>
+      <h2 className="text-2xl font-bold mb-4 text-[#2B4257]">How to become a Lead</h2>
+      <ol className="list-decimal list-inside space-y-4">
+        <li>Check if there's a current <a href="#" className="text-blue-600">Google Developer Student Club</a> on your campus to determine if you'll start or grow a club. We encourage you to participate or help organize an event to gain practical experience with an existing club near you!</li>
+        <li>Read the <a href="#" className="text-blue-600">Community Organizer Code of Conduct</a>.</li>
+        <li>Submit your GDSC Lead application <a href="#" className="text-blue-600">here</a>.</li>
+        <li>We'll review your submission and get back to you as soon as possible by email.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+</div>
   );
 }
 
