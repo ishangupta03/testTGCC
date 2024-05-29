@@ -118,10 +118,10 @@ function info() {
     <div>
       <h2 className="text-2xl font-bold mb-4 text-[#2B4257]">How to become a Lead</h2>
       <ol className="list-decimal list-inside space-y-4">
-        <li>Check if there's a current <a href="#" className="text-blue-600">Google Developer Student Club</a> on your campus to determine if you'll start or grow a club. We encourage you to participate or help organize an event to gain practical experience with an existing club near you!</li>
+        <li>Check if there&apos;s a current <a href="#" className="text-blue-600">Google Developer Student Club</a> on your campus to determine if you&apos;ll start or grow a club. We encourage you to participate or help organize an event to gain practical experience with an existing club near you!</li>
         <li>Read the <a href="#" className="text-blue-600">Community Organizer Code of Conduct</a>.</li>
         <li>Submit your GDSC Lead application <a href="#" className="text-blue-600">here</a>.</li>
-        <li>We'll review your submission and get back to you as soon as possible by email.</li>
+        <li>We&apos;ll review your submission and get back to you as soon as possible by email.</li>
       </ol>
     </div>
   </div>
