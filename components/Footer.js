@@ -101,19 +101,19 @@ const Footer = () => {
                       href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
+                      Team Green
+                    </a>
+                    <a
+                      href=""
+                      className="font-normal text-black py-1 block hover:underline"
+                    >
                       TGCC
                     </a>
                     <a
                       href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
-                      Uplift Project
-                    </a>
-                    <a
-                      href=""
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
-                      Team Green
+                      Events
                     </a>
                   </div>
                 </div>
