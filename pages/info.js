@@ -50,7 +50,7 @@ function info() {
           <div className="w-6 h-6 mr-2">
             <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
           </div>
-          <span>Passionate about creating impact in community</span>
+          <span>Passionate about creating a meaningful impact on the environment</span>
         </li>
         <li className="flex items-start">
           <div className="w-6 h-6 mr-2">
@@ -62,7 +62,7 @@ function info() {
           <div className="w-6 h-6 mr-2">
             <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
           </div>
-          <span>Have connection to the local developer community</span>
+          <span>Have connection to the local community</span>
         </li>
       </ul>
     </div>
@@ -74,7 +74,7 @@ function info() {
           <div className="w-6 h-6 mr-2">
             <Image src="/assets/bullet-icon.png" alt="Check" width={24} height={24} layout="fixed" />
           </div>
-          <span>Host an event ideally once a month, or a total of 4 events for the year</span>
+          <span>Host an event ideally once a month, or a total of 6 events for the year</span>
         </li>
         <li className="flex items-start">
           <div className="w-6 h-6 mr-2">
@@ -112,7 +112,7 @@ function info() {
     <div>
       <h2 className="text-2xl font-bold mb-4 text-[#2B4257]">How to become a Lead</h2>
       <ol className="list-decimal list-inside space-y-4">
-        <li>Check if there&apos;s a current <span className="text-primary_green-0">Team Green Campus Chapter</span> on your campus to determine if you&apos;ll start or grow a club. We encourage you to participate or help organize an event to gain practical experience with an existing club near you!</li>
+        <li>Check if there&apos;s a current <span className="text-primary_green-0">Team Green Campus Chapter</span> on your campus to determine if you&apos;ll start or grow a club. We encourage you to participate or help organize an event to gain practical experience.</li>
         <li>Read the <a href="/codeofconduct" className="text-blue-600">Code of Conduct</a>.</li>
         <li>Submit your TGCC Lead application <a href="https://forms.gle/p7pSN3YHPRDAgfom9" className="text-blue-600">here</a>.</li>
         <li>We&apos;ll review your submission and get back to you by email.</li>

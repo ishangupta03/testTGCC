@@ -20,8 +20,8 @@ const ContactForm = () => {
           <div className="flex items-center justify-center">
             <img src="tgo-dark.png" alt="Logo" className="w-380 h-16"/>
           </div>
-          <h2 className="text-2xl font-bold text-white mt-4">Contact Information</h2>
-          <p className="text-white mb-4">Say something to start a live chat</p>
+          <h2 className="text-2xl font-bold text-white mt-4">Send us Your Query</h2>
+          <p className="text-white mb-4">Feel free to get in touch</p>
           <ul className="text-white space-y-4">
             <li className="flex items-center">
               <span className="mr-2">📧</span> tgcc.teamgreen.org.in

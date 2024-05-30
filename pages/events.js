@@ -29,8 +29,11 @@ function info() {
               <InstagramEmbed url="https://www.instagram.com/p/C2koaUKIWql" width={328} className="mx-auto"/>
               <InstagramEmbed url="https://www.instagram.com/p/C1MggLiPP9-" width={328} className="mx-auto"/>
               <InstagramEmbed url="https://www.instagram.com/p/C1B6HxIPR-9" width={328} className="mx-auto"/>
+              <InstagramEmbed url="https://www.instagram.com/p/CzOTE4qPCiz" width={328} className="mx-auto"/>
               <InstagramEmbed url="https://www.instagram.com/p/CyP-2GmMOQq" width={328} className="mx-auto"/>
-              
+              <InstagramEmbed url="https://www.instagram.com/p/CyzlSuAoKjI" width={328} className="mx-auto"/>
+              <InstagramEmbed url="https://www.instagram.com/p/CtOnIAmo5sG" width={328} className="mx-auto"/>
+              <InstagramEmbed url="https://www.instagram.com/p/CtJhY0fPbXN" width={328} className="mx-auto"/>
             </div>
 
           </div>
