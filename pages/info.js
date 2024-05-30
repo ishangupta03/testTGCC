@@ -54,12 +54,6 @@ function info() {
         </li>
         <li className="flex items-start">
           <div className="w-6 h-6 mr-2">
-          <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed"/>
-          </div>
-          <span>Technical understanding of computer programming and/or software engineering</span>
-        </li>
-        <li className="flex items-start">
-          <div className="w-6 h-6 mr-2">
           <Image src="/assets/check-icon.png" alt="Check" width={24} height={24} layout="fixed" />
           </div>
           <span>Have experience with event planning or leading a team</span>
