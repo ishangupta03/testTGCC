@@ -13,7 +13,7 @@ function info() {
           href="./TG_Logo_White.png"
         />
       </Head>
-      <div className="container transition-colors mx-auto mt-8 mb-0 md:mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
+      <div className="container transition-colors mx-auto mt-8 mb-0 md:mb-12 p-2 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="items-center justify-center">
           <div className="text-center text-2xl">
             <p className="text-[#2B4257] text-4xl center font_heading font-bold mb-10">
@@ -32,6 +32,15 @@ function info() {
               <InstagramEmbed url="https://www.instagram.com/p/CyP-2GmMOQq" width={328} className="mx-auto"/>
               
             </div>
+           {/*  <div className="grid md:grid-cols-3 grid-cols-1 md:gap-16 gap-4 justify-items-center">
+  <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe" className="mx-auto w-full min-w-[328px]"/>
+  <InstagramEmbed url="https://www.instagram.com/p/C2sYJALhxTw" className="mx-auto w-full min-w-[328px]"/>
+  <InstagramEmbed url="https://www.instagram.com/p/C2koaUKIWql" className="mx-auto w-full min-w-[328px]"/>
+  <InstagramEmbed url="https://www.instagram.com/p/C1MggLiPP9-" className="mx-auto w-full min-w-[328px]"/>
+  <InstagramEmbed url="https://www.instagram.com/p/C1B6HxIPR-9" className="mx-auto w-full min-w-[328px]"/>
+  <InstagramEmbed url="https://www.instagram.com/p/CyP-2GmMOQq" className="mx-auto w-full min-w-[328px]"/>
+</div> */}
+
 
 
           </div>
