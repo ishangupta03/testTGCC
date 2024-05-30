@@ -114,7 +114,7 @@ function info() {
       <ol className="list-decimal list-inside space-y-4">
         <li>Check if there&apos;s a current <span className="text-primary_green-0">Team Green Campus Chapter</span> on your campus to determine if you&apos;ll start or grow a club. We encourage you to participate or help organize an event to gain practical experience with an existing club near you!</li>
         <li>Read the <a href="#" className="text-blue-600">Community Organizer Code of Conduct</a>.</li>
-        <li>Submit your TGCC Lead application <a href="#" className="text-blue-600">here</a>.</li>
+        <li>Submit your TGCC Lead application <a href="https://forms.gle/p7pSN3YHPRDAgfom9" className="text-blue-600">here</a>.</li>
         <li>We&apos;ll review your submission and get back to you as soon as possible by email.</li>
       </ol>
     </div>
