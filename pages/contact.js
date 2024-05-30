@@ -73,35 +73,37 @@ const ContactForm = () => {
 
           </div>
         </div>
-        <div className="md:w-2/3 p-8">
-          <form className="space-y-4">
-            <div className="flex flex-col md:flex-row md:space-x-4">
-              <div className="flex-1">
-                <label className="block text-gray-700">First Name</label>
-                <input type="text" placeholder="Enter your first name" className="w-full p-2 border border-gray-300 rounded-md"/>
-              </div>
-              <div className="flex-1 mt-4 md:mt-0">
-                <label className="block text-gray-700">Last Name</label>
-                <input type="text" placeholder="Enter your last name" className="w-full p-2 border border-gray-300 rounded-md"/>
-              </div>
+
+      <div className="md:w-2/3 p-8">
+        <form action="https://formspree.io/f/xvoenazn" method="POST" className="space-y-4">
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <div className="flex-1">
+              <label className="block text-gray-700">First Name</label>
+              <input type="text" name="First Name" placeholder="Enter your first name" className="w-full p-2 border border-gray-300 rounded-md" required/>
             </div>
-            <div className="flex flex-col md:flex-row md:space-x-4">
-              <div className="flex-1">
-                <label className="block text-gray-700">Email</label>
-                <input type="email" placeholder="Enter your email" className="w-full p-2 border border-gray-300 rounded-md"/>
-              </div>
-              <div className="flex-1 mt-4 md:mt-0">
-                <label className="block text-gray-700">Phone Number</label>
-                <input type="tel" placeholder="Enter your phone number" className="w-full p-2 border border-gray-300 rounded-md"/>
-              </div>
+            <div className="flex-1 mt-4 md:mt-0">
+              <label className="block text-gray-700">Last Name</label>
+              <input type="text" name="Last Name" placeholder="Enter your last name" className="w-full p-2 border border-gray-300 rounded-md" required/>
             </div>
-            <div>
-              <label className="block text-gray-700">Message</label>
-              <textarea placeholder="Enter your message..." className="w-full p-2 border border-gray-300 rounded-md h-32"></textarea>
+          </div>
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <div className="flex-1">
+              <label className="block text-gray-700">Email</label>
+              <input type="email" name="Email" placeholder="Enter your email" className="w-full p-2 border border-gray-300 rounded-md" required/>
             </div>
-            <button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-md">Send Message</button>
-          </form>
-        </div>
+            <div className="flex-1 mt-4 md:mt-0">
+              <label className="block text-gray-700">Phone Number</label>
+              <input type="tel" name="Phone" placeholder="Enter your phone number" className="w-full p-2 border border-gray-300 rounded-md"/>
+            </div>
+          </div>
+          <div>
+            <label className="block text-gray-700">Message</label>
+            <textarea name="Message" placeholder="Enter your message..." className="w-full p-2 border border-gray-300 rounded-md h-32" required></textarea>
+          </div>
+          <button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-md">Send Message</button>
+        </form>
+      </div>
+
       </div>
     </div>
   );
