@@ -1,4 +1,4 @@
-import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
+import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -113,7 +113,7 @@ function info() {
       <h2 className="text-2xl font-bold mb-4 text-[#2B4257]">How to become a Lead</h2>
       <ol className="list-decimal list-inside space-y-4">
         <li>Check if there&apos;s a current <span className="text-primary_green-0">Team Green Campus Chapter</span> on your campus to determine if you&apos;ll start or grow a club. We encourage you to participate or help organize an event to gain practical experience.</li>
-        <li>Read the <a href="/codeofconduct" className="text-blue-600">Code of Conduct</a>.</li>
+        <li>Read the <Link href="/codeofconduct"><a className="text-blue-600">Code of Conduct</a></Link>.</li>
         <li>Submit your TGCC Lead application <a href="https://forms.gle/p7pSN3YHPRDAgfom9" className="text-blue-600">here</a>.</li>
         <li>We&apos;ll review your submission and get back to you by email.</li>
       </ol>
