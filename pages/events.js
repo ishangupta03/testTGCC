@@ -32,16 +32,6 @@ function info() {
               <InstagramEmbed url="https://www.instagram.com/p/CyP-2GmMOQq" width={328} className="mx-auto"/>
               
             </div>
-           {/*  <div className="grid md:grid-cols-3 grid-cols-1 md:gap-16 gap-4 justify-items-center">
-  <InstagramEmbed url="https://www.instagram.com/p/C3-wyKHMIAe" className="mx-auto w-full min-w-[328px]"/>
-  <InstagramEmbed url="https://www.instagram.com/p/C2sYJALhxTw" className="mx-auto w-full min-w-[328px]"/>
-  <InstagramEmbed url="https://www.instagram.com/p/C2koaUKIWql" className="mx-auto w-full min-w-[328px]"/>
-  <InstagramEmbed url="https://www.instagram.com/p/C1MggLiPP9-" className="mx-auto w-full min-w-[328px]"/>
-  <InstagramEmbed url="https://www.instagram.com/p/C1B6HxIPR-9" className="mx-auto w-full min-w-[328px]"/>
-  <InstagramEmbed url="https://www.instagram.com/p/CyP-2GmMOQq" className="mx-auto w-full min-w-[328px]"/>
-</div> */}
-
-
 
           </div>
        
