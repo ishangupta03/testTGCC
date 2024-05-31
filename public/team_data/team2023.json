@@ -14,8 +14,8 @@
         "Designation": "Associate Director",
         "Image": "./assets/team/aviral-agarwal.jpeg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/4vir4l"
     },
     {
         "Name": "Vedansh Goyal",
@@ -23,8 +23,8 @@
         "Designation": "Tech Team",
         "Image": "./assets/team/Vedansh_Goyal.jpeg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/vedanshgoyal"
     },
     {
         "Name": "Chinmay Malhotra",
@@ -32,8 +32,8 @@
         "Designation": "TGCC Lead'23, JIIT Noida",
         "Image": "./assets/team/Chinmay_Malhotra.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/chinmaymalhotra10"
     },
     {
         "Name": "Hardik Sharma",
@@ -41,7 +41,7 @@
         "Designation": "TGCC Lead'23, IIIT Nagpur ",
         "Image": "./assets/team/Hardik_Sharma.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
+        "Twitter": "",
         "LinkedIn": "https://www.linkedin.com/in/"
     },
     {
@@ -50,8 +50,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/manvi_maheswari.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/manvimahe"
     },
      
     {
@@ -60,8 +60,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/anuj_kumar_sharma.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/anujksharma03"
     },
     {
         "Name": "Vishakha Rathore",
@@ -69,8 +69,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/vishakha_rathore.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/vishakha2706"
     },
     {
         "Name": "Akshita Jain",
@@ -78,8 +78,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/akshita_jain.png",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/akshita-jain-81459a285"
     },
     {
         "Name": "Somil Mathur",
@@ -87,7 +87,7 @@
         "Designation": "Core Member",
         "Image": "./assets/team/somil_mathur.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
+        "Twitter": "",
         "LinkedIn": "https://www.linkedin.com/in/"
     },
     {
@@ -96,8 +96,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/prateek_bhargava.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/prateekbhargava29"
     },
     {
         "Name": "Kislay Ranjan NEE Tandon",
@@ -105,8 +105,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/kislay_tandon.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/kislay-ranjan-nee-tandon-1bb786121"
     },
     {
         "Name": "Abhinav Mathur",
@@ -114,8 +114,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/abhinav_mathur.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/abhinav-mathur-bab966233"
     },
     {
         "Name": "Manan Mangal",
@@ -123,8 +123,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/manan-mangal.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/mangal-manan"
     },
     {
         "Name": "Nitesh Laljani",
@@ -132,8 +132,8 @@
         "Designation": "Core Member",
         "Image": "./assets/team/nitesh_laljani.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/niteshlaljani"
     },
     {
         "Name": "Sudeep Dadheech",
@@ -141,8 +141,8 @@
         "Designation": "Member",
         "Image": "./assets/team/sudeep_dadheech.jpg",
         "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/sudeep-dadheech-39421b275"
     }
     
 ]
