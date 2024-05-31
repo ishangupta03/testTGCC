@@ -120,9 +120,7 @@ const Footer = () => {
             <div className="md:w-1/3 md:px-4 md:text-left mt-12 lg:mt-0">
               <h5 className="text-lg text-[#2B4257] font-medium mb-4">
                 Team Green Campus Chapters is the fastest growing eco-conscious community in India. It is
-                a non-profit project brought to you by Team Green Organization to
-                help . Be a part, spread knowledge {"& "}
-                happiness.
+                a non-profit project brought to you by Team Green Organization.
               </h5>
               <a href="#">
                 <button className="bg-black text-white hover:bg-slate-800 rounded py-2 px-4 md:px-12 transition-colors duration-300">
