@@ -12,6 +12,10 @@ function Faq() {
           FAQs | Team Green Campus Chapters | Team Green Organization
         </title>
         <meta name="description" content="FAQs of Team Green Campus Chapters" />
+        <link
+          rel="icon"
+          href="./TG_Logo_White.png"
+        />
       </Head>
       <section className="flex flex-col items-center md:mb-10">
       

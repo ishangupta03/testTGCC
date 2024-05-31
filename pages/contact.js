@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from "next/head";
 import {
   faYoutube,
   faFacebook,
@@ -6,11 +7,23 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
+
 
 const ContactForm = () => {
   return (
     <div className="container mx-auto mt-8 mb-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
+      
+      <Head>
+        <title>
+          Contact Us | Team Green Campus Chapters | Team Green Organization
+        </title>
+        <meta name="description" content="Contact Team Green Campus Chapters" />
+        <link
+          rel="icon"
+          href="./TG_Logo_White.png"
+        />
+      </Head>
+      
       <h1 className="text-center text-4xl font-bold text-[#2B4257] mb-4">Contact Us</h1>
       <p className="text-center text-xl text-primary_green-0 mb-10">
         Any questions or remarks? Just write us a message!
