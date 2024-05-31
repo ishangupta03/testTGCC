@@ -76,12 +76,11 @@ const Footer = () => {
                     ABOUT TGCC
                   </h6>
                   <div>
-                    <a
-                      href="https://teamgreen.org.in"
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
+                  <Link href="/contact">
+                    <a className="font-normal text-black py-1 block hover:underline">
                       Contact Us
                     </a>
+                    </Link>
                     
                     <Link href="/codeofconduct">
                     <a
@@ -97,24 +96,22 @@ const Footer = () => {
                     LATEST
                   </h6>
                   <div>
-                    <a
-                      href=""
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
+                  <Link href="">
+                    <a className="font-normal text-black py-1 block hover:underline">
                       Team Green
                     </a>
+                    </Link>
                     <a
                       href=""
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       TGCC
                     </a>
-                    <a
-                      href=""
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
+                    <Link href="/events">
+                    <a className="font-normal text-black py-1 block hover:underline">
                       Events
                     </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -127,7 +124,7 @@ const Footer = () => {
                 help . Be a part, spread knowledge {"& "}
                 happiness.
               </h5>
-              <a href="https://tgcc.teamgreen.org.in">
+              <a href="#">
                 <button className="bg-black text-white hover:bg-slate-800 rounded py-2 px-4 md:px-12 transition-colors duration-300">
                   Explore
                 </button>
