@@ -24,7 +24,7 @@ const ContactForm = () => {
           <p className="text-white mb-4">Feel free to get in touch</p>
           <ul className="text-white space-y-4">
             <li className="flex items-center">
-              <span className="mr-2">📧</span> tgcc.teamgreen.org.in
+              <span className="mr-2">📧</span> tgcampuschapters@gmail.com
             </li>
             <li className="flex items-center">
               <span className="mr-2">📍</span> India

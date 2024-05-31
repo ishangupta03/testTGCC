@@ -4,7 +4,7 @@
         "Email": "",
         "Designation": "Founder & Director",
         "Image": "./assets/team/ishan-gupta.jpeg",
-        "GitHub": "https://github.com",
+        "GitHub": "",
         "Twitter": "https://twitter.com/IshanGupta03",
         "LinkedIn": "https://www.linkedin.com/in/ishangupta03"
     },
@@ -40,6 +40,106 @@
         "Email": "",
         "Designation": "TGCC Lead'23, IIIT Nagpur ",
         "Image": "./assets/team/Hardik_Sharma.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Manvi Maheswari",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/manvi_maheswari.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Vishakha Rathore",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/vishakha_rathore.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Akshita Jain",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/akshita_jain.png",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Somil Mathur",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/somil_mathur.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    
+    {
+        "Name": "Anuj Kumar Sharma",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/anuj_kumar_sharma.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Prateek Bhargava",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/prateek_bhargava.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Kislay Ranjan NEE Tandon",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/kislay_tandon.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Abhinav Mathur",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/abhinav_mathur.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Manan Mangal",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/manan-mangal.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Nitesh Laljani",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/nitesh_laljani.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
+    {
+        "Name": "Sudeep Dadheech",
+        "Email": "",
+        "Designation": "Member",
+        "Image": "./assets/team/sudeep_dadheech.jpg",
         "GitHub": "",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
