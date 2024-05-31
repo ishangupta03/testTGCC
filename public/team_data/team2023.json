@@ -53,6 +53,16 @@
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
     },
+     
+    {
+        "Name": "Anuj Kumar Sharma",
+        "Email": "",
+        "Designation": "Core Member",
+        "Image": "./assets/team/anuj_kumar_sharma.jpg",
+        "GitHub": "",
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/in/"
+    },
     {
         "Name": "Vishakha Rathore",
         "Email": "",
@@ -76,16 +86,6 @@
         "Email": "",
         "Designation": "Core Member",
         "Image": "./assets/team/somil_mathur.jpg",
-        "GitHub": "",
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/"
-    },
-    
-    {
-        "Name": "Anuj Kumar Sharma",
-        "Email": "",
-        "Designation": "Core Member",
-        "Image": "./assets/team/anuj_kumar_sharma.jpg",
         "GitHub": "",
         "Twitter": "https://twitter.com/",
         "LinkedIn": "https://www.linkedin.com/in/"
